@@ -104,3 +104,18 @@ msgstr "Пов'язаний запис"
 #: model:ir.actions.act_window,name:document_quick_access_folder_auto_classification.document_quick_access_missing_act_window
 msgid "Document Quick Access Missing"
 msgstr "Відсутній швидкий доступ до документа"
+
+#. module: document_quick_access_folder_auto_classification
+#: model:res.groups,name:document_quick_access_folder_auto_classification.group_missing_document
+msgid "Assigner"
+msgstr "Призначальник"
+
+#. module: document_quick_access_folder_auto_classification
+#: model:ir.model,name:document_quick_access_folder_auto_classification.model_document_quick_access_handler
+msgid "Component Handler for Document Quick Access"
+msgstr "Обробник компонента для швидкого доступу до документа"
+
+#. module: document_quick_access_folder_auto_classification
+#: model:ir.module.category,name:document_quick_access_folder_auto_classification.ir_module_category_missing_document
+msgid "Missing Documents"
+msgstr "Відсутні документи"

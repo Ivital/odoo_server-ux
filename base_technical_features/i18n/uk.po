@@ -22,3 +22,15 @@ msgstr "Показувати поле «Технічні характерист�
 #: model:ir.model.fields,field_description:base_technical_features.field_res_users__technical_features
 msgid "Technical Features"
 msgstr "Технічні властивості"
+
+#. module: base_technical_features
+#: model:res.groups,name:base_technical_features.group_technical_features
+msgid "Technical Features (w/o debug mode)"
+msgstr "Технічні функції (без режиму налагодження)"
+
+#. module: base_technical_features
+#: model:ir.model.fields,help:base_technical_features.field_res_users__show_technical_features
+msgid ""
+"Whether to display the technical features field in the user preferences."
+msgstr ""
+"Чи відображати поле технічних можливостей у налаштуваннях користувача."

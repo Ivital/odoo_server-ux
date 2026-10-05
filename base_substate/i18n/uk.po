@@ -142,3 +142,53 @@ msgstr "Поле цільового стану"
 #: model:ir.model.fields,field_description:base_substate.field_target_state_value__name
 msgid "Target state Name"
 msgstr "Назва цільового стану"
+
+#. module: base_substate
+#: model:ir.model,name:base_substate.model_base_substate_mixin
+msgid "BaseSubstate Mixin"
+msgstr "Міксин BaseSubstate"
+
+#. module: base_substate
+#: model:ir.model.fields,help:base_substate.field_base_substate__sequence
+msgid "Gives the sequence order when applying the default substate"
+msgstr ""
+"Визначає порядок послідовності під час застосування підстану за "
+"замовчуванням"
+
+#. module: base_substate
+#: model:ir.model.fields,help:base_substate.field_base_substate__mail_template_id
+msgid ""
+"If set, an email will be sent to the partner when the object reaches this "
+"substate."
+msgstr ""
+"Якщо задано, партнеру буде надіслано лист, коли об’єкт досягне цього "
+"підстану."
+
+#. module: base_substate
+#: model:ir.model.fields,help:base_substate.field_base_substate__model
+#: model:ir.model.fields,help:base_substate.field_target_state_value__model
+msgid "Model for technical use"
+msgstr "Модель для технічного використання"
+
+#. module: base_substate
+#: model:res.groups,name:base_substate.group_substate_manager
+msgid "Substate manager"
+msgstr "Менеджер підстанів"
+
+#. module: base_substate
+#: model:ir.model.fields,help:base_substate.field_target_state_value__name
+msgid ""
+"Target state translateble name.\n"
+"Ex: for sale order \"Quotation\", \"Sale order\", \"Locked\"..."
+msgstr ""
+"Перекладна назва цільового стану.\n"
+"Напр.: для замовлення на продаж «Quotation», «Sale order», «Locked»..."
+
+#. module: base_substate
+#: model:ir.model.fields,help:base_substate.field_target_state_value__target_state_value
+msgid ""
+"Technical target state value.\n"
+"Ex: for sale order \"draft\", \"sale\", \"done\", ..."
+msgstr ""
+"Технічне значення цільового стану.\n"
+"Напр.: для замовлення на продаж «draft», «sale», «done», ..."

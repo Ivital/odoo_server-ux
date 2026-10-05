@@ -92,3 +92,8 @@ msgstr "Очікування"
 #: model:ir.model.fields,help:barcode_action.field_barcode_action___barcode_scanned
 msgid "Value of the last barcode scanned."
 msgstr "Значення останнього відсканованого штрихкоду."
+
+#. module: barcode_action
+#: model:ir.model,name:barcode_action.model_barcode_action
+msgid "Barcode Action"
+msgstr "Дія штрихкоду"

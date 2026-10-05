@@ -52,3 +52,21 @@ msgstr "Рецензенти з Python-виразу"
 #: model:ir.model.fields,field_description:base_tier_validation_formula.field_tier_definition__python_code
 msgid "Tier Definition Expression"
 msgstr "Вираз визначення рівня"
+
+#. module: base_tier_validation_formula
+#: model:ir.model.fields,help:base_tier_validation_formula.field_tier_definition__reviewer_expression
+msgid ""
+"Write Python code that defines the reviewer. The result of executing the "
+"expression must be a res.users recordset."
+msgstr ""
+"Напишіть код Python, що визначає рецензента. Результат виконання виразу має "
+"бути набором записів res.users."
+
+#. module: base_tier_validation_formula
+#: model:ir.model.fields,help:base_tier_validation_formula.field_tier_definition__python_code
+msgid ""
+"Write Python code that defines when this tier confirmation will be needed. "
+"The result of executing the expresion must be a boolean."
+msgstr ""
+"Напишіть код Python, який визначає, коли буде потрібне це рівневе "
+"підтвердження. Результатом виконання виразу має бути логічне значення."

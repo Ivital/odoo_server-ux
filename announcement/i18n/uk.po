@@ -317,3 +317,49 @@ msgstr "Непрочитане оголошення"
 #: model_terms:ir.ui.view,arch_db:announcement.announcement_view_form
 msgid "e.g. Announcement description..."
 msgstr "наприклад, опис оголошення..."
+
+#. module: announcement
+#: model:res.groups,name:announcement.announcemenent_manager
+msgid "Announcement Manager"
+msgstr "Менеджер оголошень"
+
+#. module: announcement
+#: model:ir.model.fields,help:announcement.field_announcement_tag__company_id
+msgid "Company related to this tag"
+msgstr "Компанія, пов’язана з цим тегом"
+
+#. module: announcement
+#: model:ir.model,name:announcement.model_announcement_log
+msgid "Log user reads"
+msgstr "Журнал читання користувачів"
+
+#. module: announcement
+#: model:ir.model,name:announcement.model_read_announcement_wizard
+msgid "Show altogether users who read and users who didn't"
+msgstr "Показувати разом користувачів, які прочитали, і тих, хто не прочитав"
+
+#. module: announcement
+#: model:ir.model.fields,help:announcement.field_announcement__notification_end_date
+#: model:ir.model.fields,help:announcement.field_announcement__notification_start_date
+msgid "Technical field to display announcements in the calendar view"
+msgstr "Технічне поле для відображення оголошень у календарному поданні"
+
+#. module: announcement
+#: model:ir.model.fields,help:announcement.field_announcement__color
+msgid "Technical field to display items by color in the calendar"
+msgstr "Технічне поле для відображення елементів за кольором у календарі"
+
+#. module: announcement
+#: model:ir.model,name:announcement.model_announcement
+msgid "User announcements"
+msgstr "Оголошення користувача"
+
+#. module: announcement
+#: model:res.groups,comment:announcement.announcemenent_manager
+msgid "Users allowed to manage and configure announcements."
+msgstr "Користувачі, яким дозволено керувати й налаштовувати оголошення."
+
+#. module: announcement
+#: model:ir.model.fields,help:announcement.field_announcement__attachment_ids
+msgid "You can attach the copy of your Letter"
+msgstr "Можна прикріпити копію вашого листа"

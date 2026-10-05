@@ -114,3 +114,17 @@ msgstr "Без фільтрів"
 #: model_terms:ir.ui.view,arch_db:base_custom_filter.search_ir_filters_group
 msgid "Search Filters Group"
 msgstr "Група пошукових фільтрів"
+
+#. module: base_custom_filter
+#: model:ir.model.fields,help:base_custom_filter.field_ir_filters__filter_domain
+msgid ""
+"Enter a filter domain expression if necessary.\n"
+"        Example: [('default_code', 'ilike', self)]"
+msgstr ""
+"За потреби введіть вираз домену фільтра.\n"
+"        Приклад: [('default_code', 'ilike', self)]"
+
+#. module: base_custom_filter
+#: model:ir.model,name:base_custom_filter.model_ir_filters_group
+msgid "Filters Group"
+msgstr "Група фільтрів"

@@ -19,3 +19,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_tier_validation_confirm_auth.field_tier_validation__require_authentication
 msgid "Require Authentication"
 msgstr "Вимагати автентифікацію"
+
+#. module: base_tier_validation_confirm_auth
+#: model:ir.model.fields,help:base_tier_validation_confirm_auth.field_tier_definition__require_authentication
+#: model:ir.model.fields,help:base_tier_validation_confirm_auth.field_tier_review__require_authentication
+msgid ""
+"If enabled, the user will be asked to authenticate himself in order to "
+"validate or reject the tier."
+msgstr ""
+"Якщо ввімкнено, користувача попросять автентифікуватися, щоб підтвердити або"
+" відхилити рівень."

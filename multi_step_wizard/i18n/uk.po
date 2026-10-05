@@ -37,3 +37,8 @@ msgstr "Повернутися"
 #: model_terms:ir.ui.view,arch_db:multi_step_wizard.multi_step_wizard_form
 msgid "Next"
 msgstr "Далі"
+
+#. module: multi_step_wizard
+#: model:ir.model,name:multi_step_wizard.model_multi_step_wizard_mixin
+msgid "Multi Steps Wizard Mixin"
+msgstr "Міксин багатокрокового майстра"

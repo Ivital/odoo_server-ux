@@ -506,3 +506,41 @@ msgstr "Історія комунікації через вебсайт"
 #: model_terms:ir.ui.view,arch_db:base_tier_validation_correction.tier_correction_view_form
 msgid "e.g. Correction for..."
 msgstr "наприклад, коригування для..."
+
+#. module: base_tier_validation_correction
+#: model:ir.model.fields,help:base_tier_validation_correction.field_tier_correction__old_reviewer_ids
+msgid "Find documents with tier reviews matching some reviewers"
+msgstr ""
+"Знайти документи з рівнями перевірки, що відповідають певним перевіряльникам"
+
+#. module: base_tier_validation_correction
+#: model:ir.model.fields,help:base_tier_validation_correction.field_tier_correction__new_reviewer_ids
+msgid "Reassign these reviewers to the tier reviews of the found document"
+msgstr ""
+"Перепризначити цих перевіряльників рівням перевірки знайденого документа"
+
+#. module: base_tier_validation_correction
+#: model:ir.model,name:base_tier_validation_correction.model_affected_tier_reviews
+msgid "Show Affected Tier Reviews"
+msgstr "Показувати пов’язані перевірки рівнів"
+
+#. module: base_tier_validation_correction
+#: model:ir.model.fields,help:base_tier_validation_correction.field_tier_correction_item__new_reviewer_ids
+msgid ""
+"These reviewers will overwrite the existing reviewer_ids in tier.review"
+msgstr "Ці рецензенти замінять наявні reviewer_ids у tier.review"
+
+#. module: base_tier_validation_correction
+#: model:ir.model,name:base_tier_validation_correction.model_tier_correction_item
+msgid "Tier Correction Detail"
+msgstr "Деталі виправлення рівня"
+
+#. module: base_tier_validation_correction
+#: model:mail.message.subtype,name:base_tier_validation_correction.mt_tier_validation_correction
+msgid "Tier Validation Correction"
+msgstr "Виправлення багаторівневої валідації"
+
+#. module: base_tier_validation_correction
+#: model:ir.model.fields,help:base_tier_validation_correction.field_tier_correction_item__review_ids
+msgid "Tier reivews that will be affected by this correction."
+msgstr "Рівні перевірки, на які вплине це виправлення."

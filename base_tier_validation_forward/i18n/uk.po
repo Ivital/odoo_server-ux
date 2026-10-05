@@ -126,3 +126,33 @@ msgstr "Група рецензента"
 #: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__forward_description
 msgid "Forward Description"
 msgstr "Опис пересилання"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,help:base_tier_validation_forward.field_tier_definition__has_forward
+msgid "Allow option to 'Forward' to different person."
+msgstr "Дозволити «Переслати» іншій особі."
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,help:base_tier_validation_forward.field_tier_review__approve_sequence
+msgid "Approval order by the specified sequence number"
+msgstr "Порядок схвалення за вказаним номером послідовності"
+
+#. module: base_tier_validation_forward
+#: model:ir.model,name:base_tier_validation_forward.model_comment_wizard
+msgid "Comment Wizard"
+msgstr "Майстер коментарів"
+
+#. module: base_tier_validation_forward
+#: model:ir.model,name:base_tier_validation_forward.model_tier_validation_forward_wizard
+msgid "Forward Wizard"
+msgstr "Майстер пересилання"
+
+#. module: base_tier_validation_forward
+#: model:ir.model,name:base_tier_validation_forward.model_tier_review
+msgid "Tier Review"
+msgstr "Перевірка рівня"
+
+#. module: base_tier_validation_forward
+#: model:mail.message.subtype,name:base_tier_validation_forward.mt_tier_validation_forwarded
+msgid "Tier Validation Forward Notification"
+msgstr "Сповіщення про пересилання багаторівневої валідації"

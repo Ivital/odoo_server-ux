@@ -47,3 +47,13 @@ msgstr "Початкове посилання"
 #: model:ir.model.fields,field_description:base_revision.field_base_revision__revision_count
 msgid "Previous versions count"
 msgstr "Кількість попередніх версій"
+
+#. module: base_revision
+#: model:ir.model,name:base_revision.model_base_revision
+msgid "Document Revision (abstract)"
+msgstr "Ревізія документа (абстрактна)"
+
+#. module: base_revision
+#: model:ir.model.constraint,message:base_revision.constraint_base_revision_revision_unique
+msgid "Reference and revision must be unique."
+msgstr "Посилання та ревізія мають бути унікальними."

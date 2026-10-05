@@ -91,3 +91,30 @@ msgstr "Останнє оновлення"
 #: model:ir.actions.server,name:template_content_swapper.action_open_template_mapping_dynamic
 msgid "Open Template Mapping"
 msgstr "Відкрити зіставлення шаблону"
+
+#. module: template_content_swapper
+#: model:ir.model.fields,help:template_content_swapper.field_template_content_mapping__lang
+msgid ""
+"If no language is selected, the mapping will be applied to all languages."
+msgstr "Якщо мову не вибрано, зіставлення застосовуватиметься до всіх мов."
+
+#. module: template_content_swapper
+#: model:ir.model.fields,help:template_content_swapper.field_template_content_mapping__template_id
+msgid "Select the main template of the report / frontend page to be modified."
+msgstr ""
+"Виберіть основний шаблон звіту / frontend-сторінки, який потрібно змінити."
+
+#. module: template_content_swapper
+#: model:ir.model.fields,help:template_content_swapper.field_template_content_mapping__content_from
+msgid "Set the content (string) to be replaced. e.g. 'Salesperson'."
+msgstr "Укажіть вміст (рядок), який потрібно замінити, напр. 'Salesperson'."
+
+#. module: template_content_swapper
+#: model:ir.model.fields,help:template_content_swapper.field_template_content_mapping__content_to
+msgid "Set your new content (string). e.g. 'Sales Representative'."
+msgstr "Укажіть новий вміст (рядок), напр. 'Sales Representative'."
+
+#. module: template_content_swapper
+#: model:ir.model,name:template_content_swapper.model_template_content_mapping
+msgid "Template Content Mapping"
+msgstr "Зіставлення вмісту шаблону"

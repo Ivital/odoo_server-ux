@@ -632,3 +632,108 @@ msgstr "Запис під час перевірки"
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
 msgid "e.g. Tier Validation for..."
 msgstr "наприклад, багаторівнева перевірка для..."
+
+#. module: base_tier_validation
+#: model:ir.model.fields,help:base_tier_validation.field_tier_validation_exception__group_ids
+msgid "Allowed groups to use this Tier Validation Exception"
+msgstr ""
+"Дозволені групи для використання цього винятку багаторівневої валідації"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,help:base_tier_validation.field_tier_definition__approve_sequence
+#: model:ir.model.fields,help:base_tier_validation.field_tier_review__approve_sequence
+msgid "Approval order by the specified sequence number"
+msgstr "Порядок схвалення за вказаним номером послідовності"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,help:base_tier_validation.field_tier_definition__approve_sequence_bypass
+#: model:ir.model.fields,help:base_tier_validation.field_tier_review__approve_sequence_bypass
+msgid ""
+"Bypassed (auto validated), if previous tier was validated by same reviewer"
+msgstr ""
+"Пропускається (автоматично підтверджується), якщо попередній рівень "
+"підтвердив той самий перевіряльник"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,help:base_tier_validation.field_tier_review__can_review
+msgid ""
+"Can review will be marked if the review is pending and the\n"
+"        approve sequence has been achieved"
+msgstr ""
+"«Може рецензувати» буде позначено, якщо огляд очікує й\n"
+"        досягнуто послідовності погодження"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,help:base_tier_validation.field_tier_definition__comment_approve_default
+msgid "Default comment prefilled when approval comments are enabled."
+msgstr ""
+"Коментар за замовчуванням, попередньо заповнений, коли коментарі схвалення "
+"ввімкнено."
+
+#. module: base_tier_validation
+#: model:ir.model.fields,help:base_tier_validation.field_tier_definition__notify_on_create
+msgid ""
+"If set, all possible reviewers will be notified by email when this "
+"definition is triggered."
+msgstr ""
+"Якщо задано, всі можливі рецензенти отримають лист, коли це визначення "
+"спрацює."
+
+#. module: base_tier_validation
+#: model:ir.model.fields,help:base_tier_validation.field_tier_definition__notify_on_pending
+msgid ""
+"If set, all possible reviewers will be notified by email when this status is"
+" reached.Usefull in an Approve by sequence scenario. An notification request"
+" to review is sent out when it's their turn to review."
+msgstr ""
+"Якщо встановлено, після досягнення цього статусу всі можливі рецензенти "
+"отримають сповіщення електронною поштою. Корисно у сценарії послідовного "
+"погодження. Запит на рецензування надсилається, коли настає черга "
+"відповідного рецензента."
+
+#. module: base_tier_validation
+#: model:ir.model.fields,help:base_tier_validation.field_tier_definition__notify_on_accepted
+msgid ""
+"If set, reviewers will be notified by email when a review related to this "
+"definition is accepted."
+msgstr ""
+"Якщо задано, рецензенти отримають лист, коли огляд за цим визначенням буде "
+"прийнято."
+
+#. module: base_tier_validation
+#: model:ir.model.fields,help:base_tier_validation.field_tier_definition__notify_on_rejected
+msgid ""
+"If set, reviewers will be notified by email when a review related to this "
+"definition is rejected."
+msgstr ""
+"Якщо задано, рецензенти отримають лист, коли огляд за цим визначенням буде "
+"відхилено."
+
+#. module: base_tier_validation
+#: model:ir.model.fields,help:base_tier_validation.field_tier_definition__notify_on_restarted
+msgid ""
+"If set, reviewers will be notified by email when a reviews related to this "
+"definition are restarted."
+msgstr ""
+"Якщо задано, рецензенти отримають лист, коли огляди за цим визначенням буде "
+"перезапущено."
+
+#. module: base_tier_validation
+#: model:ir.model.fields,help:base_tier_validation.field_tier_definition__notify_reminder_delay
+msgid ""
+"Number of days after which a message must be posted to remind about pending "
+"validation  (0 = no reminder)"
+msgstr ""
+"Кількість днів, після яких слід опублікувати повідомлення-нагадування про "
+"очікуване погодження (0 = без нагадування)"
+
+#. module: base_tier_validation
+#: model:mail.activity.type,name:base_tier_validation.mail_act_tier_validation_reminder
+#: model:mail.message.subtype,name:base_tier_validation.mt_tier_validation_reminder
+msgid "Tier Validation Reminder"
+msgstr "Нагадування про багаторівневу валідацію"
+
+#. module: base_tier_validation
+#: model:mail.message.subtype,name:base_tier_validation.mt_tier_validation_restarted
+msgid "Tier Validation Restarted"
+msgstr "Багаторівневу валідацію перезапущено"

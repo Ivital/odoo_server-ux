@@ -115,3 +115,8 @@ msgstr "Необов'язкова причина скасування"
 #: model:ir.model.fields,field_description:base_cancel_confirm.field_cancel_confirm__has_cancel_reason
 msgid "Has Cancel Reason"
 msgstr "Є причина скасування"
+
+#. module: base_cancel_confirm
+#: model:ir.model,name:base_cancel_confirm.model_cancel_confirm
+msgid "Cancel Confirm"
+msgstr "Підтвердження скасування"

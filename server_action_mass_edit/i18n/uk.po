@@ -42,6 +42,8 @@ msgid ""
 "Add widget text that will be used to display the field in the wizard.\n"
 "Example: 'many2many_tags', 'selection', 'image'"
 msgstr ""
+"Додайте текст віджета, який використовуватиметься для відображення поля в майстрі.\n"
+"Приклад: 'many2many_tags', 'selection', 'image'"
 
 #. module: server_action_mass_edit
 #: model_terms:ir.ui.view,arch_db:server_action_mass_edit.view_mass_editing_wizard_form
@@ -91,7 +93,7 @@ msgstr "Назва для відображення"
 #. odoo-python
 #: code:addons/server_action_mass_edit/wizard/mass_editing_wizard.py:0
 msgid "Don't touch"
-msgstr ""
+msgstr "Не торкатися"
 
 #. module: server_action_mass_edit
 #: model:ir.model.fields,field_description:server_action_mass_edit.field_ir_actions_server_mass_edit_line__field_id
@@ -171,7 +173,7 @@ msgstr "Модель"
 #. module: server_action_mass_edit
 #: model:ir.model.fields,help:server_action_mass_edit.field_ir_actions_server_mass_edit_line__model_id
 msgid "Model on which the server action runs."
-msgstr ""
+msgstr "Модель, на якій виконується дія сервера."
 
 #. module: server_action_mass_edit
 #. odoo-python

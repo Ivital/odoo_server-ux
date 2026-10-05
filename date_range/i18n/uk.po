@@ -42,12 +42,12 @@ msgstr ""
 #. module: date_range
 #: model:ir.model.constraint,message:date_range.constraint_date_range_date_range_uniq
 msgid "A date range must be unique per company !"
-msgstr ""
+msgstr "Діапазон дат має бути унікальним для кожної компанії!"
 
 #. module: date_range
 #: model:ir.model.constraint,message:date_range.constraint_date_range_type_date_range_type_uniq
 msgid "A date range type must be unique per company !"
-msgstr ""
+msgstr "Тип діапазону дат має бути унікальним для кожної компанії!"
 
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__active
@@ -137,7 +137,7 @@ msgstr "Діапазон дат"
 #. module: date_range
 #: model:ir.model,name:date_range.model_date_range_generator
 msgid "Date Range Generator"
-msgstr ""
+msgstr "Генератор діапазону дат"
 
 #. module: date_range
 #: model:ir.model,name:date_range.model_date_range_type
@@ -203,6 +203,8 @@ msgid ""
 "Evaluated expression. E.g. \"'FY%s' % date_start.strftime('%Y%m%d')\"\n"
 "You can use the Date types 'date_end' and 'date_start', as well as the 'index' variable."
 msgstr ""
+"Обчислюваний вираз. Напр. \"'FY%s' % date_start.strftime('%Y%m%d')\"\n"
+"Можна використовувати типи дат 'date_end' і 'date_start', а також змінну 'index'."
 
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range_search_mixin__date_range_search_id
@@ -236,7 +238,7 @@ msgstr "ID"
 #. module: date_range
 #: model:ir.model.fields,help:date_range.field_date_range_type__allow_overlap
 msgid "If set, date ranges of same type must not overlap."
-msgstr ""
+msgstr "Якщо задано, діапазони дат одного типу не можуть перекриватися."
 
 #. module: date_range
 #. odoo-python
@@ -261,7 +263,7 @@ msgstr "Дата останньої зміни"
 #. module: date_range
 #: model:ir.model,name:date_range.model_date_range_search_mixin
 msgid "Mixin class to add a Many2one style period search field"
-msgstr ""
+msgstr "Клас-міксин для додавання поля пошуку періоду у стилі Many2one"
 
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__name
@@ -283,7 +285,7 @@ msgstr "Кількість діапазонів для створення"
 #. module: date_range
 #: model:ir.model.fields,help:date_range.field_date_range_type__autogeneration_date_start
 msgid "Only applies when there are no date ranges of this type yet"
-msgstr ""
+msgstr "Застосовується лише тоді, коли ще немає діапазонів дат цього типу"
 
 #. module: date_range
 #: model_terms:ir.ui.view,arch_db:date_range.date_range_generator_view_form
@@ -355,12 +357,13 @@ msgstr ""
 msgid ""
 "The active field allows you to hide the date range type without removing it."
 msgstr ""
+"Поле «Активно» дає змогу приховати тип діапазону дат без його видалення."
 
 #. module: date_range
 #: model:ir.model.fields,help:date_range.field_date_range__active
 msgid ""
 "The active field allows you to hide the date range without removing it."
-msgstr ""
+msgstr "Поле «Активно» дає змогу приховати діапазон дат без його видалення."
 
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__type_id

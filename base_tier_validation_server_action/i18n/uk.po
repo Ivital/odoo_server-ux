@@ -42,3 +42,31 @@ msgstr "Дія після відхилення"
 #: model_terms:ir.ui.view,arch_db:base_tier_validation_server_action.tier_definition_view_form
 msgid "if pass condition"
 msgstr "якщо умова виконана"
+
+#. module: base_tier_validation_server_action
+#: model:ir.model.fields,help:base_tier_validation_server_action.field_tier_definition__server_action_id
+msgid "Server action triggered as soon as this step is approved"
+msgstr "Серверна дія, що запускається одразу після схвалення цього кроку"
+
+#. module: base_tier_validation_server_action
+#: model:ir.model.fields,help:base_tier_validation_server_action.field_tier_definition__rejected_server_action_id
+msgid "Server action triggered as soon as this step is rejected"
+msgstr "Серверна дія, що запускається одразу після відхилення цього кроку"
+
+#. module: base_tier_validation_server_action
+#: model:ir.model,name:base_tier_validation_server_action.model_tier_validation
+msgid "Tier Validation (abstract)"
+msgstr "Багаторівнева валідація (абстрактна)"
+
+#. module: base_tier_validation_server_action
+#: model:ir.model.fields,help:base_tier_validation_server_action.field_tier_definition__auto_validate
+msgid ""
+"Use schedule job to auto validate if condition is met.\n"
+"- If no user specified, use job's system user to validate\n"
+"- If 1 user matched as reviewer, use the user to validate\n"
+"- If > 1 user matched as reviewer, do not auto validate"
+msgstr ""
+"Використовувати планове завдання для автоматичного підтвердження, якщо умову виконано.\n"
+"- Якщо користувача не вказано, для підтвердження використовувати системного користувача завдання\n"
+"- Якщо як рецензенту відповідає 1 користувач, використовувати його для підтвердження\n"
+"- Якщо як рецензентам відповідає > 1 користувача, автоматично не підтверджувати"

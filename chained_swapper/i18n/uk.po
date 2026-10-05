@@ -238,3 +238,60 @@ msgid ""
 msgstr ""
 "У виразі можна використовувати змінну <code>records</code>. Вона посилається"
 " на вибрані записи для виконання заміни. Наприклад:"
+
+#. module: chained_swapper
+#: model:ir.model.fields,help:chained_swapper.field_chained_swapper__ref_ir_act_window_id
+msgid ""
+"Action to make this template available on records of the related document "
+"model."
+msgstr ""
+"Дія, що робить цей шаблон доступним у записах відповідної моделі документа."
+
+#. module: chained_swapper
+#: model:ir.model.fields,help:chained_swapper.field_chained_swapper_constraint__expression
+msgid ""
+"Boolean python expression. You can use the keyword 'records' as the records "
+"selected to execute the contextual action. Ex.: "
+"bool(records.mapped('parent_id'))"
+msgstr ""
+"Логічний вираз Python. Можна використовувати ключове слово 'records' для "
+"записів, вибраних для виконання контекстної дії. Приклад: "
+"bool(records.mapped('parent_id'))"
+
+#. module: chained_swapper
+#: model:ir.model,name:chained_swapper.model_chained_swapper_constraint
+msgid "Chained Swapper Constraint"
+msgstr "Обмеження ланцюгової заміни"
+
+#. module: chained_swapper
+#: model:ir.model,name:chained_swapper.model_chained_swapper_sub_field
+msgid "Chained Swapper Sub-field"
+msgstr "Підполе ланцюгової заміни"
+
+#. module: chained_swapper
+#: model:ir.model.constraint,message:chained_swapper.constraint_chained_swapper_model_id_field_id_unique
+msgid "Model and Field must be unique!"
+msgstr "Модель і поле мають бути унікальними!"
+
+#. module: chained_swapper
+#: model:ir.model.fields,help:chained_swapper.field_chained_swapper__model_id
+msgid ""
+"Model is used for Selecting Field. This is editable until Contextual Action "
+"is not created."
+msgstr ""
+"Модель використовується для вибору поля. Її можна редагувати, доки не "
+"створено контекстну дію."
+
+#. module: chained_swapper
+#: model:ir.model,name:chained_swapper.model_chained_swapper_wizard
+msgid "Wizard chained swapper"
+msgstr "Майстер ланцюгової заміни"
+
+#. module: chained_swapper
+#: model:ir.model.fields,help:chained_swapper.field_chained_swapper_sub_field__sub_field_chain
+msgid ""
+"You can specify here a field of related fields as dotted names. Ex.: "
+"'child_ids.lang'."
+msgstr ""
+"Тут можна вказати поле пов’язаних полів через крапку. Напр.: "
+"'child_ids.lang'."

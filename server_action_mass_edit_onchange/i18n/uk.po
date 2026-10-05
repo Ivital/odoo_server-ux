@@ -28,3 +28,13 @@ msgstr "Застосувати onchange"
 #: model:ir.model.fields,field_description:server_action_mass_edit_onchange.field_ir_cron__mass_edit_play_onchanges
 msgid "Play onchanges from lines"
 msgstr "Застосувати onchange з рядків"
+
+#. module: server_action_mass_edit_onchange
+#: model:ir.model.fields,help:server_action_mass_edit_onchange.field_ir_actions_server_mass_edit_line__apply_onchanges
+msgid "Play field onchanges before writing value"
+msgstr "Виконувати onchange полів перед записом значення"
+
+#. module: server_action_mass_edit_onchange
+#: model:ir.model,name:server_action_mass_edit_onchange.model_ir_actions_server_mass_edit_line
+msgid "Server Actions Mass Edit Lines"
+msgstr "Рядки масового редагування серверних дій"

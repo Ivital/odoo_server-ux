@@ -109,3 +109,17 @@ msgid ""
 msgstr ""
 "Керуйте попередньо визначеними параметрами попереджень, щоб зберігати "
 "узгодженість повідомлень про попередження або блокування"
+
+#. module: base_warn_option
+#: model:ir.model.fields,help:base_warn_option.field_warn_option__allowed_warning_type
+msgid ""
+"If no option is selected, the message is valid for both warning messages and"
+" blocking messages"
+msgstr ""
+"Якщо параметр не вибрано, повідомлення дійсне як для попереджувальних, так і"
+" для блокувальних повідомлень"
+
+#. module: base_warn_option
+#: model:ir.model.fields,help:base_warn_option.field_warn_option__name
+msgid "This text will be the warning message."
+msgstr "Цей текст буде повідомленням-попередженням."
