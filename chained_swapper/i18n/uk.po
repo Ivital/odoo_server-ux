@@ -92,3 +92,65 @@ msgstr "Назва"
 #: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
 msgid "Sub-fields"
 msgstr "Підполя"
+
+#. module: chained_swapper
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
+msgid "Add Action"
+msgstr "Додати дію"
+
+#. module: chained_swapper
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
+msgid "Advanced"
+msgstr "Розширений"
+
+#. module: chained_swapper
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_wizard_view_form
+msgid "Change"
+msgstr "Змінити"
+
+#. module: chained_swapper
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_wizard_view_form
+msgid "Close"
+msgstr "Закрити"
+
+#. module: chained_swapper
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
+msgid "Constraint Name"
+msgstr "Назва обмеження"
+
+#. module: chained_swapper
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_constraint__expression
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_constraint_view_form
+msgid "Constraint expression"
+msgstr "Вираз обмеження"
+
+#. module: chained_swapper
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper__write_uid
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_constraint__write_uid
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_sub_field__write_uid
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: chained_swapper
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper__write_date
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_constraint__write_date
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_sub_field__write_date
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: chained_swapper
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
+msgid "Remove Action"
+msgstr "Дія видалення"
+
+#. module: chained_swapper
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
+msgid "Security"
+msgstr "Безпека"
+
+#. module: chained_swapper
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_sub_field__sub_field_chain
+msgid "Sub Field Chain"
+msgstr "Ланцюжок підполів"

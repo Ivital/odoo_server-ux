@@ -52,3 +52,38 @@ msgstr "Статус"
 #: model:ir.model.fields.selection,name:barcode_action.selection__barcode_action__state__warning
 msgid "Warning"
 msgstr "Попередження"
+
+#. module: barcode_action
+#: model:ir.actions.act_window,name:barcode_action.barcode_action_action
+msgid "Barcode Launcher"
+msgstr "Запуск сканера штрихкоду"
+
+#. module: barcode_action
+#: model:ir.model.fields,field_description:barcode_action.field_barcode_action___barcode_scanned
+msgid "Barcode Scanned"
+msgstr "Штрихкод відскановано"
+
+#. module: barcode_action
+#: model_terms:ir.ui.view,arch_db:barcode_action.barcode_action_form
+msgid "Close"
+msgstr "Закрити"
+
+#. module: barcode_action
+#: model_terms:ir.ui.view,arch_db:barcode_action.barcode_action_form
+msgid "Find"
+msgstr "Знайти"
+
+#. module: barcode_action
+#: model:ir.model.fields,field_description:barcode_action.field_barcode_action__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: barcode_action
+#: model:ir.model.fields,field_description:barcode_action.field_barcode_action__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: barcode_action
+#: model:ir.model.fields.selection,name:barcode_action.selection__barcode_action__state__waiting
+msgid "Waiting"
+msgstr "Очікування"

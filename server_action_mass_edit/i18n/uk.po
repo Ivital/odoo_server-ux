@@ -46,12 +46,12 @@ msgstr ""
 #. module: server_action_mass_edit
 #: model_terms:ir.ui.view,arch_db:server_action_mass_edit.view_mass_editing_wizard_form
 msgid "Apply"
-msgstr ""
+msgstr "Застосувати"
 
 #. module: server_action_mass_edit
 #: model:ir.model.fields,field_description:server_action_mass_edit.field_ir_actions_server_mass_edit_line__apply_domain
 msgid "Apply Domain"
-msgstr ""
+msgstr "Застосувати домен"
 
 #. module: server_action_mass_edit
 #: model:ir.model.fields,help:server_action_mass_edit.field_ir_actions_server_mass_edit_line__apply_domain
@@ -67,7 +67,7 @@ msgstr "Застосувати фільтр у рядках"
 #. module: server_action_mass_edit
 #: model_terms:ir.ui.view,arch_db:server_action_mass_edit.view_mass_editing_wizard_form
 msgid "Cancel"
-msgstr ""
+msgstr "Скасувати"
 
 #. module: server_action_mass_edit
 #: model:ir.model.fields,field_description:server_action_mass_edit.field_ir_actions_server_mass_edit_line__create_uid
@@ -137,7 +137,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:server_action_mass_edit.field_ir_actions_server__mass_edit_line_ids
 #: model:ir.model.fields,field_description:server_action_mass_edit.field_ir_cron__mass_edit_line_ids
 msgid "Mass Edit Line"
-msgstr ""
+msgstr "Рядок масового редагування"
 
 #. module: server_action_mass_edit
 #: model:ir.model.fields.selection,name:server_action_mass_edit.selection__ir_actions_server__state__mass_edit
@@ -219,7 +219,7 @@ msgstr "Послідовність"
 #: model:ir.model,name:server_action_mass_edit.model_ir_actions_server
 #: model:ir.model.fields,field_description:server_action_mass_edit.field_ir_actions_server_mass_edit_line__server_action_id
 msgid "Server Action"
-msgstr ""
+msgstr "Серверна дія"
 
 #. module: server_action_mass_edit
 #: model:ir.model,name:server_action_mass_edit.model_ir_actions_server_mass_edit_line

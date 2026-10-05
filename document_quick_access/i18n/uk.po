@@ -59,3 +59,23 @@ msgstr "Назва"
 #: model:ir.model.fields,field_description:document_quick_access.field_document_quick_access_rule__priority
 msgid "Priority"
 msgstr "Пріоритет"
+
+#. module: document_quick_access
+#: model:ir.model.fields,field_description:document_quick_access.field_document_quick_access_rule__barcode_format
+msgid "Barcode Format"
+msgstr "Формат штрихкоду"
+
+#. module: document_quick_access
+#: model:ir.model.fields,field_description:document_quick_access.field_document_quick_access_rule__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: document_quick_access
+#: model:ir.model.fields,field_description:document_quick_access.field_document_quick_access_rule__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: document_quick_access
+#: model:ir.model.fields.selection,name:document_quick_access.selection__document_quick_access_rule__barcode_format__standard
+msgid "Standard"
+msgstr "Стандартний"

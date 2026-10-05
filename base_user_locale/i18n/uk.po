@@ -78,3 +78,24 @@ msgstr "Середа"
 #: model_terms:ir.ui.view,arch_db:base_user_locale.res_config_settings_view_form
 msgid "Week Start"
 msgstr "Початок тижня"
+
+#. module: base_user_locale
+#: model:ir.model.fields,field_description:base_user_locale.field_res_company__decimal_point
+#: model:ir.model.fields,field_description:base_user_locale.field_res_config_settings__decimal_point
+#: model:ir.model.fields,field_description:base_user_locale.field_res_users__decimal_point
+#: model_terms:ir.ui.view,arch_db:base_user_locale.res_config_settings_view_form
+msgid "Decimal Separator"
+msgstr "Десятковий роздільник"
+
+#. module: base_user_locale
+#: model_terms:ir.ui.view,arch_db:base_user_locale.res_config_settings_view_form
+msgid "Locale"
+msgstr "Локаль"
+
+#. module: base_user_locale
+#: model:ir.model.fields,field_description:base_user_locale.field_res_company__thousands_sep
+#: model:ir.model.fields,field_description:base_user_locale.field_res_config_settings__thousands_sep
+#: model:ir.model.fields,field_description:base_user_locale.field_res_users__thousands_sep
+#: model_terms:ir.ui.view,arch_db:base_user_locale.res_config_settings_view_form
+msgid "Thousands Separator"
+msgstr "Роздільник тисяч"

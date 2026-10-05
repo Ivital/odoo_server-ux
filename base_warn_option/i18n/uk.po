@@ -53,3 +53,35 @@ msgstr "Назва"
 #: model:ir.model.fields.selection,name:base_warn_option.selection__warn_option__allowed_warning_type__warning
 msgid "Warning"
 msgstr "Попередження"
+
+#. module: base_warn_option
+#: model_terms:ir.ui.view,arch_db:base_warn_option.warn_option_search
+msgid "Alert"
+msgstr "Попередження"
+
+#. module: base_warn_option
+#: model:ir.model.fields,field_description:base_warn_option.field_warn_option__allowed_warning_type
+#: model_terms:ir.ui.view,arch_db:base_warn_option.warn_option_search
+msgid "Allowed Warning Type"
+msgstr "Дозволений тип попередження"
+
+#. module: base_warn_option
+#: model:ir.model.fields.selection,name:base_warn_option.selection__warn_option__allowed_warning_type__block
+#: model_terms:ir.ui.view,arch_db:base_warn_option.warn_option_search
+msgid "Block"
+msgstr "Блок"
+
+#. module: base_warn_option
+#: model:ir.model.fields,field_description:base_warn_option.field_warn_option__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: base_warn_option
+#: model:ir.model.fields,field_description:base_warn_option.field_warn_option__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: base_warn_option
+#: model:ir.actions.act_window,name:base_warn_option.warn_option_action
+msgid "Warn Options"
+msgstr "Параметри попередження"

@@ -61,3 +61,28 @@ msgstr "Шаблон"
 #: model_terms:ir.ui.view,arch_db:template_content_swapper.view_template_content_mapping_search
 msgid "Template Content Mappings"
 msgstr "Зіставлення вмісту шаблонів"
+
+#. module: template_content_swapper
+#: model:ir.model.fields,field_description:template_content_swapper.field_template_content_mapping__content_from
+msgid "Content From"
+msgstr "Вміст із"
+
+#. module: template_content_swapper
+#: model_terms:ir.ui.view,arch_db:template_content_swapper.view_template_content_mapping_search
+msgid "Frontend"
+msgstr "Фронтенд"
+
+#. module: template_content_swapper
+#: model_terms:ir.ui.view,arch_db:template_content_swapper.view_template_content_mapping_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: template_content_swapper
+#: model:ir.model.fields,field_description:template_content_swapper.field_template_content_mapping__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: template_content_swapper
+#: model:ir.model.fields,field_description:template_content_swapper.field_template_content_mapping__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

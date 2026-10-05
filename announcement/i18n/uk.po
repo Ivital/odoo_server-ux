@@ -166,3 +166,79 @@ msgstr "Група користувачів"
 #: model_terms:ir.ui.view,arch_db:announcement.announcement_management_view_form
 msgid "Users"
 msgstr "Користувачі"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement__allowed_user_ids
+msgid "Allowed User"
+msgstr "Дозволений користувач"
+
+#. module: announcement
+#: model_terms:ir.ui.view,arch_db:announcement.announcement_view_form
+msgid "Announce at"
+msgstr "Оголосити о"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement__announcement_log_ids
+msgid "Announcement Log"
+msgstr "Журнал оголошень"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement__write_uid
+#: model:ir.model.fields,field_description:announcement.field_announcement_log__write_uid
+#: model:ir.model.fields,field_description:announcement.field_announcement_tag__write_uid
+#: model:ir.model.fields,field_description:announcement.field_read_announcement_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement__write_date
+#: model:ir.model.fields,field_description:announcement.field_announcement_log__write_date
+#: model:ir.model.fields,field_description:announcement.field_announcement_tag__write_date
+#: model:ir.model.fields,field_description:announcement.field_read_announcement_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: announcement
+#: model_terms:ir.ui.view,arch_db:announcement.announcement_management_view_tree
+msgid "Reads"
+msgstr "Читання"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement__specific_user_ids
+msgid "Specific User"
+msgstr "Конкретний користувач"
+
+#. module: announcement
+#: model:ir.model.fields.selection,name:announcement.selection__announcement__announcement_type__specific_users
+msgid "Specific users"
+msgstr "Конкретні користувачі"
+
+#. module: announcement
+#: model_terms:ir.ui.view,arch_db:announcement.announcement_view_form
+msgid "Tags..."
+msgstr "Теги..."
+
+#. module: announcement
+#: model_terms:ir.ui.view,arch_db:announcement.announcement_management_view_tree
+msgid "Total users"
+msgstr "Усього користувачів"
+
+#. module: announcement
+#: model:ir.model.fields.selection,name:announcement.selection__read_announcement_wizard__read_state__unread
+msgid "Unread"
+msgstr "Непрочитано"
+
+#. module: announcement
+#: model:ir.model.fields.selection,name:announcement.selection__announcement__announcement_type__user_group
+msgid "User groups"
+msgstr "Групи користувачів"
+
+#. module: announcement
+#: model_terms:ir.ui.view,arch_db:announcement.announcement_view_form
+msgid "Valid up to"
+msgstr "Чинний до"
+
+#. module: announcement
+#: model_terms:ir.ui.view,arch_db:announcement.announcement_view_calendar
+msgid "name"
+msgstr "назва"

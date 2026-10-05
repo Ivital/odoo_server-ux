@@ -22,3 +22,28 @@ msgstr "Активний"
 #: model:ir.model.fields,field_description:base_revision.field_base_revision__revision_number
 msgid "Revision"
 msgstr "Ревізія"
+
+#. module: base_revision
+#: model:ir.model.fields,field_description:base_revision.field_base_revision__current_revision_id
+msgid "Current revision"
+msgstr "Поточна ревізія"
+
+#. module: base_revision
+#: model:ir.model.fields,field_description:base_revision.field_base_revision__has_old_revisions
+msgid "Has Old Revisions"
+msgstr "Має старі ревізії"
+
+#. module: base_revision
+#: model:ir.model.fields,field_description:base_revision.field_base_revision__old_revision_ids
+msgid "Old revisions"
+msgstr "Старі ревізії"
+
+#. module: base_revision
+#: model:ir.model.fields,field_description:base_revision.field_base_revision__unrevisioned_name
+msgid "Original Reference"
+msgstr "Початкове посилання"
+
+#. module: base_revision
+#: model:ir.model.fields,field_description:base_revision.field_base_revision__revision_count
+msgid "Previous versions count"
+msgstr "Кількість попередніх версій"

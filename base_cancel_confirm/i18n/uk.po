@@ -42,3 +42,61 @@ msgstr "Відображувана назва"
 #: model:ir.model.fields.selection,name:base_cancel_confirm.selection__cancel_confirm__has_cancel_reason__required
 msgid "Required"
 msgstr "Обов’язкове"
+
+#. module: base_cancel_confirm
+#: model_terms:ir.ui.view,arch_db:base_cancel_confirm.view_cancel_confirm_wizard
+msgid "Are you sure to cancel this document?"
+msgstr "Ви впевнені, що хочете скасувати цей документ?"
+
+#. module: base_cancel_confirm
+#: model_terms:ir.ui.view,arch_db:base_cancel_confirm.view_cancel_confirm_wizard
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: base_cancel_confirm
+#: model:ir.actions.act_window,name:base_cancel_confirm.action_cancel_confirm_wizard
+#: model:ir.model,name:base_cancel_confirm.model_base_cancel_confirm
+#: model_terms:ir.ui.view,arch_db:base_cancel_confirm.view_cancel_confirm_wizard
+msgid "Cancel Confirmation"
+msgstr "Підтвердження скасування"
+
+#. module: base_cancel_confirm
+#: model:ir.model.fields,field_description:base_cancel_confirm.field_base_cancel_confirm__cancel_confirm
+msgid "Cancel Confirmed"
+msgstr "Скасувати підтверджені"
+
+#. module: base_cancel_confirm
+#: model:ir.model.fields,field_description:base_cancel_confirm.field_base_cancel_confirm__cancel_reason
+#: model:ir.model.fields,field_description:base_cancel_confirm.field_cancel_confirm__cancel_reason
+msgid "Cancel Reason"
+msgstr "Причина скасування"
+
+#. module: base_cancel_confirm
+#: model_terms:ir.ui.view,arch_db:base_cancel_confirm.view_cancel_confirm_wizard
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: base_cancel_confirm
+#: model:ir.model.fields,field_description:base_cancel_confirm.field_cancel_confirm__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: base_cancel_confirm
+#: model:ir.model.fields,field_description:base_cancel_confirm.field_cancel_confirm__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: base_cancel_confirm
+#: model:ir.model.fields.selection,name:base_cancel_confirm.selection__cancel_confirm__has_cancel_reason__no
+msgid "None"
+msgstr "Немає"
+
+#. module: base_cancel_confirm
+#: model:ir.model.fields.selection,name:base_cancel_confirm.selection__cancel_confirm__has_cancel_reason__optional
+msgid "Optional"
+msgstr "Необов'язково"
+
+#. module: base_cancel_confirm
+#: model_terms:ir.ui.view,arch_db:base_cancel_confirm.view_cancel_confirm_wizard
+msgid "or"
+msgstr "або"

@@ -27,3 +27,8 @@ msgstr "Формула"
 #: model:ir.model.fields,field_description:base_tier_validation_formula.field_tier_definition__review_type
 msgid "Validated by"
 msgstr "Підтвердив"
+
+#. module: base_tier_validation_formula
+#: model:ir.model.fields.selection,name:base_tier_validation_formula.selection__tier_definition__definition_type__domain_formula
+msgid "Domain & Formula"
+msgstr "Домен і формула"

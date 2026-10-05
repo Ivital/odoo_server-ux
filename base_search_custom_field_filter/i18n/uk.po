@@ -58,3 +58,18 @@ msgstr "Назва"
 #: model:ir.model.fields,field_description:base_search_custom_field_filter.field_ir_ui_custom_field_filter__sequence
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: base_search_custom_field_filter
+#: model:ir.model.fields,field_description:base_search_custom_field_filter.field_ir_ui_custom_field_filter__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: base_search_custom_field_filter
+#: model:ir.model.fields,field_description:base_search_custom_field_filter.field_ir_ui_custom_field_filter__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: base_search_custom_field_filter
+#: model:ir.model.fields,field_description:base_search_custom_field_filter.field_ir_ui_custom_field_filter__position_after
+msgid "Position After"
+msgstr "Позиція після"

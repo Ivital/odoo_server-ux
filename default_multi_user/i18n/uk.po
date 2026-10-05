@@ -22,3 +22,9 @@ msgstr "Власник"
 #: model:ir.model.fields,field_description:default_multi_user.field_ir_default__user_ids
 msgid "Users"
 msgstr "Користувачі"
+
+#. module: default_multi_user
+#: model:ir.model.fields,field_description:default_multi_user.field_ir_default__manual_user_ids
+#: model_terms:ir.ui.view,arch_db:default_multi_user.ir_default_view_tree
+msgid "Available for Users"
+msgstr "Доступно користувачам"

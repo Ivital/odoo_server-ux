@@ -103,3 +103,32 @@ msgstr "Тип підстану"
 #: model_terms:ir.ui.view,arch_db:base_substate.target_state_value_view_search
 msgid "Target State Value"
 msgstr "Цільове значення стану"
+
+#. module: base_substate
+#: model:ir.model.fields,field_description:base_substate.field_base_substate__mail_template_id
+msgid "Email Template"
+msgstr "Шаблон електронного листа"
+
+#. module: base_substate
+#: model:ir.model.fields,field_description:base_substate.field_base_substate__write_uid
+#: model:ir.model.fields,field_description:base_substate.field_base_substate_type__write_uid
+#: model:ir.model.fields,field_description:base_substate.field_target_state_value__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: base_substate
+#: model:ir.model.fields,field_description:base_substate.field_base_substate__write_date
+#: model:ir.model.fields,field_description:base_substate.field_base_substate_type__write_date
+#: model:ir.model.fields,field_description:base_substate.field_target_state_value__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: base_substate
+#: model:ir.model.fields,field_description:base_substate.field_base_substate__name
+msgid "Substate Name"
+msgstr "Назва підстану"
+
+#. module: base_substate
+#: model:ir.model.fields,field_description:base_substate.field_target_state_value__base_substate_type_id
+msgid "Substate Type"
+msgstr "Тип підстану"

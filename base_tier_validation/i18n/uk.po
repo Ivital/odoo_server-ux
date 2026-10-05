@@ -267,3 +267,157 @@ msgstr "Підтверджено"
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__review_ids
 msgid "Validations"
 msgstr "Погодження"
+
+#. module: base_tier_validation
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
+msgid "<span class=\"oe_edit_only\">Name</span>"
+msgstr "<span class=\"oe_edit_only\">Назва</span>"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__comment_approve_default
+msgid "Approve Comment"
+msgstr "Коментар затвердження"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__approve_sequence_bypass
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__approve_sequence_bypass
+msgid "Approve Sequence Bypass"
+msgstr "Обхід послідовності схвалення"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__approve_sequence
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__approve_sequence
+msgid "Approve by sequence"
+msgstr "Схвалювати за послідовністю"
+
+#. module: base_tier_validation
+#: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_review__status__approved
+msgid "Approved"
+msgstr "Схвалено"
+
+#. module: base_tier_validation
+#: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_review__status__cancel
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.view_comment_wizard
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__display_status
+msgid "Display Status"
+msgstr "Показувати статус"
+
+#. module: base_tier_validation
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__write_uid
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__write_uid
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__write_uid
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation_exception__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__write_date
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__write_date
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__write_date
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation_exception__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: base_tier_validation
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
+msgid "More Options"
+msgstr "Більше параметрів"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__need_validation
+msgid "Need Validation"
+msgstr "Потрібна перевірка"
+
+#. module: base_tier_validation
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_label
+msgid "Reject"
+msgstr "Відхилити"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__rejected_message
+msgid "Rejected Message"
+msgstr "Відхилене повідомлення"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__res_id
+msgid "Related Document ID"
+msgstr "ID пов'язаного документа"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__model
+msgid "Related Document Model"
+msgstr "Модель пов'язаного документа"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__reviewer_field_id
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewer_field_id
+msgid "Reviewer field"
+msgstr "Поле рецензента"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__reviewer_group_id
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewer_group_id
+msgid "Reviewer group"
+msgstr "Група рецензента"
+
+#. module: base_tier_validation
+#: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_definition__review_type__individual
+msgid "Specific user"
+msgstr "Конкретний користувач"
+
+#. module: base_tier_validation
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.res_config_settings_view_form_budget
+msgid "Tier Validation"
+msgstr "Рівнева перевірка"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__to_validate_message
+msgid "To Validate Message"
+msgstr "Повідомлення для перевірки"
+
+#. module: base_tier_validation
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_label
+msgid "Validate"
+msgstr "Підтвердити"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__validate_reject
+msgid "Validate Reject"
+msgstr "Підтвердити відхилення"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__validated_message
+msgid "Validated Message"
+msgstr "Перевірене повідомлення"
+
+#. module: base_tier_validation
+#. odoo-javascript
+#: code:addons/base_tier_validation/static/src/components/tier_review_widget/tier_review_widget.xml:0
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewed_date
+msgid "Validation Date"
+msgstr "Дата перевірки"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__validation_status
+msgid "Validation Status"
+msgstr "Статус перевірки"
+
+#. module: base_tier_validation
+#: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_review__status__waiting
+#: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_validation__validation_status__waiting
+msgid "Waiting"
+msgstr "Очікування"
+
+#. module: base_tier_validation
+#: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_validation__validation_status__no
+msgid "Without validation"
+msgstr "Без перевірки"

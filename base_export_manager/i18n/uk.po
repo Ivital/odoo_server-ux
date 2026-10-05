@@ -27,7 +27,7 @@ msgstr ""
 #. module: base_export_manager
 #: model:ir.model.fields,field_description:base_export_manager.field_ir_model_access__perm_export
 msgid "Export Access"
-msgstr ""
+msgstr "Експорт доступу"
 
 #. module: base_export_manager
 #: model_terms:ir.ui.view,arch_db:base_export_manager.ir_exports_form_view
@@ -42,7 +42,7 @@ msgstr ""
 #. module: base_export_manager
 #: model_terms:ir.ui.view,arch_db:base_export_manager.ir_exports_form_view
 msgid "Export Profile"
-msgstr ""
+msgstr "Профіль експорту"
 
 #. module: base_export_manager
 #: model:ir.actions.act_window,name:base_export_manager.ir_exports_action
@@ -104,12 +104,12 @@ msgstr "Перша модель"
 #. module: base_export_manager
 #: model:ir.model.fields,field_description:base_export_manager.field_ir_exports_line__field4_id
 msgid "Fourth field"
-msgstr ""
+msgstr "Четверте поле"
 
 #. module: base_export_manager
 #: model:ir.model.fields,field_description:base_export_manager.field_ir_exports_line__model4_id
 msgid "Fourth model"
-msgstr ""
+msgstr "Четверта модель"
 
 #. module: base_export_manager
 #: model:ir.model,name:base_export_manager.model_ir_http
@@ -151,12 +151,12 @@ msgstr ""
 #. module: base_export_manager
 #: model:ir.model.fields,field_description:base_export_manager.field_ir_exports_line__field2_id
 msgid "Second field"
-msgstr ""
+msgstr "Друге поле"
 
 #. module: base_export_manager
 #: model:ir.model.fields,field_description:base_export_manager.field_ir_exports_line__model2_id
 msgid "Second model"
-msgstr ""
+msgstr "Друга модель"
 
 #. module: base_export_manager
 #: model:ir.model.fields,field_description:base_export_manager.field_ir_exports_line__sequence

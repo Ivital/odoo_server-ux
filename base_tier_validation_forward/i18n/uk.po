@@ -67,3 +67,57 @@ msgstr "Рівень"
 #: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review__review_type
 msgid "Validated by"
 msgstr "Підтвердив"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__has_comment
+msgid "Allow Comment"
+msgstr "Дозволити коментар"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_definition__has_forward
+msgid "Allow Forward"
+msgstr "Дозволити пересилання"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review__approve_sequence
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__approve_sequence
+msgid "Approve by sequence"
+msgstr "Схвалювати за послідовністю"
+
+#. module: base_tier_validation_forward
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_forward.view_forward_wizard
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: base_tier_validation_forward
+#. odoo-python
+#: code:addons/base_tier_validation_forward/models/tier_validation.py:0
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_forward.tier_validation_label_forward
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_forward.view_forward_wizard
+msgid "Forward"
+msgstr "Переслати"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields.selection,name:base_tier_validation_forward.selection__tier_review__status__forwarded
+msgid "Forwarded"
+msgstr "Переслано"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__forward_reviewer_id
+msgid "Next Reviewer"
+msgstr "Наступний рецензент"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review__reviewer_group_id
+msgid "Reviewer group"
+msgstr "Група рецензента"
