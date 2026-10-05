@@ -86,3 +86,8 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:template_content_swapper.field_template_content_mapping__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: template_content_swapper
+#: model:ir.actions.server,name:template_content_swapper.action_open_template_mapping_dynamic
+msgid "Open Template Mapping"
+msgstr "Відкрити зіставлення шаблону"

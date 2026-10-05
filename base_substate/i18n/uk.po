@@ -132,3 +132,13 @@ msgstr "Назва підстану"
 #: model:ir.model.fields,field_description:base_substate.field_target_state_value__base_substate_type_id
 msgid "Substate Type"
 msgstr "Тип підстану"
+
+#. module: base_substate
+#: model:ir.model.fields,field_description:base_substate.field_base_substate_type__target_state_field
+msgid "Target State Field"
+msgstr "Поле цільового стану"
+
+#. module: base_substate
+#: model:ir.model.fields,field_description:base_substate.field_target_state_value__name
+msgid "Target state Name"
+msgstr "Назва цільового стану"

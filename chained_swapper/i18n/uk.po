@@ -154,3 +154,87 @@ msgstr "Безпека"
 #: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_sub_field__sub_field_chain
 msgid "Sub Field Chain"
 msgstr "Ланцюжок підполів"
+
+#. module: chained_swapper
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
+msgid "<code>date</code>: The current date."
+msgstr "<code>date</code>: поточна дата."
+
+#. module: chained_swapper
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
+msgid "<code>datetime</code>: The current date and time."
+msgstr "<code>datetime</code>: поточна дата й час."
+
+#. module: chained_swapper
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
+msgid "<code>env</code>: The Odoo environment."
+msgstr "<code>env</code>: середовище Odoo."
+
+#. module: chained_swapper
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
+msgid ""
+"Add a new contextual action of related documents to open a composition "
+"wizard"
+msgstr ""
+"Додати нову контекстну дію пов’язаних документів для відкриття майстра "
+"створення повідомлення"
+
+#. module: chained_swapper
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
+msgid "Adding Constraints for Restricting the Chained Swap"
+msgstr "Додавання обмежень для ланцюгової заміни"
+
+#. module: chained_swapper
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper__allowed_field_ids_domain
+msgid "Allowed Field Ids Domain"
+msgstr "Домен дозволених ID полів"
+
+#. module: chained_swapper
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
+msgid ""
+"Each constraint should have a <strong>name</strong> for identifying it. This"
+" name is also used when displaying the error message in case the swap is not"
+" allowed."
+msgstr ""
+"Кожне обмеження повинно мати <strong>назву</strong> для ідентифікації. Ця "
+"назва також використовується в повідомленні про помилку, якщо заміну "
+"заборонено."
+
+#. module: chained_swapper
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
+msgid ""
+"In this case, the constraint restricts the swap if any of the related "
+"picking orders has been validated (state 'done')."
+msgstr ""
+"У цьому випадку обмеження забороняє заміну, якщо будь-яке з пов’язаних "
+"складських переміщень уже підтверджено (стан 'done')."
+
+#. module: chained_swapper
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
+msgid "Other Variables You Can Use"
+msgstr "Інші змінні, які можна використовувати"
+
+#. module: chained_swapper
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
+msgid "Remove the contextual action to use this template on related documents"
+msgstr ""
+"Видалити контекстну дію для використання цього шаблону в пов’язаних "
+"документах"
+
+#. module: chained_swapper
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
+msgid ""
+"You can add possible constraints to restrict the chained swap. These constraints are Python expressions that must be evaluated as a boolean value.\n"
+"        If the evaluation returns <code>True</code>, a message will be thrown and no swap will be allowed."
+msgstr ""
+"Можна додати можливі обмеження для ланцюгової заміни. Ці обмеження є виразами Python, які мають обчислюватися як логічне значення.\n"
+"        Якщо результат обчислення — <code>True</code>, буде показано повідомлення й заміну буде заборонено."
+
+#. module: chained_swapper
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
+msgid ""
+"You can use the variable <code>records</code> in your expression. This will "
+"refer to the selected records for performing the swap. For example:"
+msgstr ""
+"У виразі можна використовувати змінну <code>records</code>. Вона посилається"
+" на вибрані записи для виконання заміни. Наприклад:"

@@ -121,3 +121,8 @@ msgstr "Наступний рецензент"
 #: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review__reviewer_group_id
 msgid "Reviewer group"
 msgstr "Група рецензента"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__forward_description
+msgid "Forward Description"
+msgstr "Опис пересилання"

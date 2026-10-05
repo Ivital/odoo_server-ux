@@ -99,3 +99,8 @@ msgstr "Відхилити"
 #: model_terms:ir.ui.view,arch_db:document_quick_access_folder_auto_classification.document_quick_access_missing_form_view
 msgid "Related record"
 msgstr "Пов'язаний запис"
+
+#. module: document_quick_access_folder_auto_classification
+#: model:ir.actions.act_window,name:document_quick_access_folder_auto_classification.document_quick_access_missing_act_window
+msgid "Document Quick Access Missing"
+msgstr "Відсутній швидкий доступ до документа"

@@ -142,12 +142,12 @@ msgstr "Рядок масового редагування"
 #. module: server_action_mass_edit
 #: model:ir.model.fields.selection,name:server_action_mass_edit.selection__ir_actions_server__state__mass_edit
 msgid "Mass Edit Records"
-msgstr ""
+msgstr "Масове редагування записів"
 
 #. module: server_action_mass_edit
 #: model:ir.model.fields,field_description:server_action_mass_edit.field_ir_ui_view__mass_server_action_id
 msgid "Mass Server Action"
-msgstr ""
+msgstr "Масова серверна дія"
 
 #. module: server_action_mass_edit
 #. odoo-python

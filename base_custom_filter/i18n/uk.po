@@ -109,3 +109,8 @@ msgstr "Поле пошуку"
 #: model_terms:ir.ui.view,arch_db:base_custom_filter.search_ir_filters_group
 msgid "Without Filters"
 msgstr "Без фільтрів"
+
+#. module: base_custom_filter
+#: model_terms:ir.ui.view,arch_db:base_custom_filter.search_ir_filters_group
+msgid "Search Filters Group"
+msgstr "Група пошукових фільтрів"

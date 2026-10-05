@@ -87,3 +87,8 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields.selection,name:barcode_action.selection__barcode_action__state__waiting
 msgid "Waiting"
 msgstr "Очікування"
+
+#. module: barcode_action
+#: model:ir.model.fields,help:barcode_action.field_barcode_action___barcode_scanned
+msgid "Value of the last barcode scanned."
+msgstr "Значення останнього відсканованого штрихкоду."

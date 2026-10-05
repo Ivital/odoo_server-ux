@@ -32,3 +32,23 @@ msgstr "Підтвердив"
 #: model:ir.model.fields.selection,name:base_tier_validation_formula.selection__tier_definition__definition_type__domain_formula
 msgid "Domain & Formula"
 msgstr "Домен і формула"
+
+#. module: base_tier_validation_formula
+#: model:ir.model.fields.selection,name:base_tier_validation_formula.selection__tier_definition__review_type__expression
+msgid "Python Expression"
+msgstr "Вираз Python"
+
+#. module: base_tier_validation_formula
+#: model:ir.model.fields,field_description:base_tier_validation_formula.field_tier_definition__reviewer_expression
+msgid "Review Expression"
+msgstr "Вираз перевірки"
+
+#. module: base_tier_validation_formula
+#: model:ir.model.fields,field_description:base_tier_validation_formula.field_tier_review__python_reviewer_ids
+msgid "Reviewers from Python expression"
+msgstr "Рецензенти з Python-виразу"
+
+#. module: base_tier_validation_formula
+#: model:ir.model.fields,field_description:base_tier_validation_formula.field_tier_definition__python_code
+msgid "Tier Definition Expression"
+msgstr "Вираз визначення рівня"

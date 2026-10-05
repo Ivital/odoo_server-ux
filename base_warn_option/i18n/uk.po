@@ -85,3 +85,27 @@ msgstr "Останнє оновлення"
 #: model:ir.actions.act_window,name:base_warn_option.warn_option_action
 msgid "Warn Options"
 msgstr "Параметри попередження"
+
+#. module: base_warn_option
+#: model_terms:ir.ui.view,arch_db:base_warn_option.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Warning Options</span>"
+msgstr "<span class=\"o_form_label\">Параметри попереджень</span>"
+
+#. module: base_warn_option
+#: model_terms:ir.ui.view,arch_db:base_warn_option.warn_option_search
+msgid "Allowed Warning Location"
+msgstr "Дозволене місце попередження"
+
+#. module: base_warn_option
+#: model_terms:ir.ui.view,arch_db:base_warn_option.res_config_settings_view_form
+msgid "Manage Warning Options"
+msgstr "Керувати параметрами попереджень"
+
+#. module: base_warn_option
+#: model_terms:ir.ui.view,arch_db:base_warn_option.res_config_settings_view_form
+msgid ""
+"Manage predefined Warning Options to maintain consistency between the "
+"warning or blocking messages"
+msgstr ""
+"Керуйте попередньо визначеними параметрами попереджень, щоб зберігати "
+"узгодженість повідомлень про попередження або блокування"

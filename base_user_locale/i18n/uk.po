@@ -99,3 +99,56 @@ msgstr "Локаль"
 #: model_terms:ir.ui.view,arch_db:base_user_locale.res_config_settings_view_form
 msgid "Thousands Separator"
 msgstr "Роздільник тисяч"
+
+#. module: base_user_locale
+#: model_terms:ir.ui.view,arch_db:base_user_locale.res_config_settings_view_form
+msgid "Configure global override of date format for all users."
+msgstr ""
+"Налаштувати глобальне перевизначення формату дати для всіх користувачів."
+
+#. module: base_user_locale
+#: model_terms:ir.ui.view,arch_db:base_user_locale.res_config_settings_view_form
+msgid "Configure global override of decimal seperator for all users."
+msgstr ""
+"Налаштувати глобальне перевизначення десяткового роздільника для всіх "
+"користувачів."
+
+#. module: base_user_locale
+#: model_terms:ir.ui.view,arch_db:base_user_locale.res_config_settings_view_form
+msgid "Configure global override of thousand separator for all users."
+msgstr ""
+"Налаштувати глобальне перевизначення роздільника тисяч для всіх "
+"користувачів."
+
+#. module: base_user_locale
+#: model_terms:ir.ui.view,arch_db:base_user_locale.res_config_settings_view_form
+msgid "Configure global override of time format for all users."
+msgstr ""
+"Налаштувати глобальне перевизначення формату часу для всіх користувачів."
+
+#. module: base_user_locale
+#: model_terms:ir.ui.view,arch_db:base_user_locale.res_config_settings_view_form
+msgid "Configure global override of week start for all users."
+msgstr ""
+"Налаштувати глобальне перевизначення початку тижня для всіх користувачів."
+
+#. module: base_user_locale
+#: model:ir.model.fields,help:base_user_locale.field_res_company__date_format
+#: model:ir.model.fields,help:base_user_locale.field_res_company__decimal_point
+#: model:ir.model.fields,help:base_user_locale.field_res_company__thousands_sep
+#: model:ir.model.fields,help:base_user_locale.field_res_company__time_format
+#: model:ir.model.fields,help:base_user_locale.field_res_config_settings__date_format
+#: model:ir.model.fields,help:base_user_locale.field_res_config_settings__decimal_point
+#: model:ir.model.fields,help:base_user_locale.field_res_config_settings__thousands_sep
+#: model:ir.model.fields,help:base_user_locale.field_res_config_settings__time_format
+#: model:ir.model.fields,help:base_user_locale.field_res_users__date_format
+#: model:ir.model.fields,help:base_user_locale.field_res_users__decimal_point
+#: model:ir.model.fields,help:base_user_locale.field_res_users__thousands_sep
+#: model:ir.model.fields,help:base_user_locale.field_res_users__time_format
+msgid ""
+"See Settings > Translations > Languages and then click on any language to "
+"see the Legends for supported Date and Time Formats and some examples"
+msgstr ""
+"Перейдіть до Налаштування > Переклади > Мови, а потім натисніть будь-яку "
+"мову, щоб переглянути легенди підтримуваних форматів дати й часу та "
+"приклади."

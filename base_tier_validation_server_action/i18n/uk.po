@@ -17,3 +17,28 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_tier_validation_server_action.field_tier_definition__auto_validate
 msgid "Auto Validate"
 msgstr "Автоматично перевіряти"
+
+#. module: base_tier_validation_server_action
+#: model:ir.model.fields,field_description:base_tier_validation_server_action.field_tier_definition__auto_validate_domain
+msgid "Auto Validate Domain"
+msgstr "Домен автоперевірки"
+
+#. module: base_tier_validation_server_action
+#: model:ir.actions.server,name:base_tier_validation_server_action.ir_cron_auto_tier_validation_ir_actions_server
+msgid "Automatic Tier Validation"
+msgstr "Автоматична багаторівнева перевірка"
+
+#. module: base_tier_validation_server_action
+#: model:ir.model.fields,field_description:base_tier_validation_server_action.field_tier_definition__server_action_id
+msgid "Post Approve Action"
+msgstr "Дія після затвердження"
+
+#. module: base_tier_validation_server_action
+#: model:ir.model.fields,field_description:base_tier_validation_server_action.field_tier_definition__rejected_server_action_id
+msgid "Post Reject Action"
+msgstr "Дія після відхилення"
+
+#. module: base_tier_validation_server_action
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_server_action.tier_definition_view_form
+msgid "if pass condition"
+msgstr "якщо умова виконана"
