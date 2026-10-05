@@ -97,3 +97,9 @@ msgstr "Значення останнього відсканованого шт�
 #: model:ir.model,name:barcode_action.model_barcode_action
 msgid "Barcode Action"
 msgstr "Дія штрихкоду"
+
+#. module: barcode_action
+#. odoo-python
+#: code:addons/barcode_action/models/res_partner.py:0
+msgid "Partner with Internal Reference %s cannot be found"
+msgstr "Партнера з внутрішнім посиланням %s не знайдено"

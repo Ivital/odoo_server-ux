@@ -544,3 +544,41 @@ msgstr "Виправлення багаторівневої валідації"
 #: model:ir.model.fields,help:base_tier_validation_correction.field_tier_correction_item__review_ids
 msgid "Tier reivews that will be affected by this correction."
 msgstr "Рівні перевірки, на які вплине це виправлення."
+
+#. module: base_tier_validation_correction
+#. odoo-python
+#: code:addons/base_tier_validation_correction/models/tier_correction.py:0
+msgid "Correction is allowed on state = 'done' only"
+msgstr "Виправлення дозволене лише у стані = 'done'"
+
+#. module: base_tier_validation_correction
+#. odoo-python
+#: code:addons/base_tier_validation_correction/models/tier_correction.py:0
+msgid "Correction is allowed on state = 'prepare' only"
+msgstr "Виправлення дозволене лише у стані = 'prepare'"
+
+#. module: base_tier_validation_correction
+#. odoo-python
+#: code:addons/base_tier_validation_correction/models/tier_correction.py:0
+msgid "Revert Date should be after Correct Date"
+msgstr "Дата повернення має бути після дати виправлення"
+
+#. module: base_tier_validation_correction
+#. odoo-python
+#: code:addons/base_tier_validation_correction/models/tier_correction.py:0
+msgid ""
+"The Correction '%(name)s', corrrected reviewers on '%(reviews)s' to "
+"'%(reviewers)s'"
+msgstr ""
+"Виправлення «%(name)s» змінило рецензентів у «%(reviews)s» на "
+"«%(reviewers)s»"
+
+#. module: base_tier_validation_correction
+#. odoo-python
+#: code:addons/base_tier_validation_correction/models/tier_correction.py:0
+msgid ""
+"The Correction '%(name)s', reverted reviewers on '%(reviews)s' back to "
+"'%(reviewers)s'"
+msgstr ""
+"Виправлення «%(name)s» повернуло рецензентів у «%(reviews)s» назад на "
+"«%(reviewers)s»"

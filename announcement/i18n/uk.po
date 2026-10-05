@@ -363,3 +363,27 @@ msgstr "Користувачі, яким дозволено керувати й 
 #: model:ir.model.fields,help:announcement.field_announcement__attachment_ids
 msgid "You can attach the copy of your Letter"
 msgstr "Можна прикріпити копію вашого листа"
+
+#. module: announcement
+#. odoo-javascript
+#: code:addons/announcement/static/src/js/announcement_menu/announcement_menu.esm.js:0
+msgid "Mark as read"
+msgstr "Позначити як прочитане"
+
+#. module: announcement
+#. odoo-javascript
+#: code:addons/announcement/static/src/js/announcement_menu/announcement_menu.xml:0
+msgid "No announcements."
+msgstr "Немає оголошень."
+
+#. module: announcement
+#. odoo-python
+#: code:addons/announcement/models/announcement.py:0
+msgid "Read Logs"
+msgstr "Читати журнали"
+
+#. module: announcement
+#. odoo-python
+#: code:addons/announcement/models/announcement_tag.py:0
+msgid "You cannot create recursive tags."
+msgstr "Не можна створювати рекурсивні теги."

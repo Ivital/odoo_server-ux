@@ -295,3 +295,45 @@ msgid ""
 msgstr ""
 "Тут можна вказати поле пов’язаних полів через крапку. Напр.: "
 "'child_ids.lang'."
+
+#. module: chained_swapper
+#. odoo-python
+#: code:addons/chained_swapper/wizard/chained_swapper_wizard.py:0
+msgid "<b>Chained swap done</b>:<br/>%(field)s: %(old)s ⇒ %(new)s"
+msgstr "<b>Ланцюгову заміну виконано</b>:<br/>%(field)s: %(old)s ⇒ %(new)s"
+
+#. module: chained_swapper
+#. odoo-python
+#: code:addons/chained_swapper/models/chained_swapper.py:0
+msgid "Chained swap"
+msgstr "Ланцюгова заміна"
+
+#. module: chained_swapper
+#. odoo-python
+#: code:addons/chained_swapper/models/chained_swapper.py:0
+msgid "Incorrect sub-field expression: %(sub_field_chain)s. %(error)s"
+msgstr "Неправильний вираз підполя: %(sub_field_chain)s. %(error)s"
+
+#. module: chained_swapper
+#. odoo-python
+#: code:addons/chained_swapper/models/chained_swapper.py:0
+msgid "Invalid constraint expression: %(expression)s. %(error)s."
+msgstr "Недійсний вираз обмеження: %(expression)s. %(error)s."
+
+#. module: chained_swapper
+#. odoo-python
+#: code:addons/chained_swapper/models/chained_swapper.py:0
+msgid "Invalid value for %(sub_field_chain)s. %(error)s"
+msgstr "Недійсне значення для %(sub_field_chain)s. %(error)s"
+
+#. module: chained_swapper
+#. odoo-python
+#: code:addons/chained_swapper/wizard/chained_swapper_wizard.py:0
+msgid "Not possible to swap the field due to the constraint"
+msgstr "Неможливо поміняти поле місцями через обмеження"
+
+#. module: chained_swapper
+#. odoo-python
+#: code:addons/chained_swapper/models/chained_swapper.py:0
+msgid "The sub-field '%s' is not compatible with the main field."
+msgstr "Підполе «%s» несумісне з основним полем."

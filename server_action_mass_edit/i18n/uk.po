@@ -155,7 +155,7 @@ msgstr "Масова серверна дія"
 #. odoo-python
 #: code:addons/server_action_mass_edit/models/ir_actions_server_mass_edit_line.py:0
 msgid "Mass edit fields should belong to the server action model."
-msgstr ""
+msgstr "Поля масового редагування мають належати моделі серверної дії."
 
 #. module: server_action_mass_edit
 #: model:ir.model.fields,field_description:server_action_mass_edit.field_ir_actions_server__mass_edit_message
@@ -179,7 +179,7 @@ msgstr "Модель, на якій виконується дія сервера
 #. odoo-python
 #: code:addons/server_action_mass_edit/wizard/mass_editing_wizard.py:0
 msgid "None of the %(amount)d record(s) you have selected can be processed."
-msgstr ""
+msgstr "Жоден із %(amount)d вибраних записів не можна обробити."
 
 #. module: server_action_mass_edit
 #: model:ir.model.fields,field_description:server_action_mass_edit.field_mass_editing_wizard__operation_description_danger
@@ -238,7 +238,7 @@ msgstr "Встановити"
 #. odoo-python
 #: code:addons/server_action_mass_edit/wizard/mass_editing_wizard.py:0
 msgid "The treatment will be processed on the %(amount)d selected record(s)."
-msgstr ""
+msgstr "Обробку буде виконано для %(amount)d вибраних записів."
 
 #. module: server_action_mass_edit
 #: model:ir.model.fields,field_description:server_action_mass_edit.field_ir_actions_server__state
@@ -283,6 +283,8 @@ msgid ""
 "You have selected %(origin_amount)d record(s) that can not be processed.\n"
 "Only %(amount)d record(s) will be processed."
 msgstr ""
+"Вибрано %(origin_amount)d записів, які неможливо обробити.\n"
+"Буде оброблено лише %(amount)d записів."
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

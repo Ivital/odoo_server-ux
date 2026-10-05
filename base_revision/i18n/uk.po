@@ -57,3 +57,21 @@ msgstr "Ревізія документа (абстрактна)"
 #: model:ir.model.constraint,message:base_revision.constraint_base_revision_revision_unique
 msgid "Reference and revision must be unique."
 msgstr "Посилання та ревізія мають бути унікальними."
+
+#. module: base_revision
+#. odoo-python
+#: code:addons/base_revision/models/base_revision.py:0
+msgid "New Revisions"
+msgstr "Нові редакції"
+
+#. module: base_revision
+#. odoo-python
+#: code:addons/base_revision/models/base_revision.py:0
+msgid "New revision created from: %s"
+msgstr "Нову редакцію створено з: %s"
+
+#. module: base_revision
+#. odoo-python
+#: code:addons/base_revision/models/base_revision.py:0
+msgid "New revision created: %s"
+msgstr "Створено нову редакцію: %s"

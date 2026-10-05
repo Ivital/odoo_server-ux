@@ -737,3 +737,153 @@ msgstr "Нагадування про багаторівневу валідац�
 #: model:mail.message.subtype,name:base_tier_validation.mt_tier_validation_restarted
 msgid "Tier Validation Restarted"
 msgstr "Багаторівневу валідацію перезапущено"
+
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid "A record to be reviewed has been created by %s."
+msgstr "Запис для перегляду створено користувачем %s."
+
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_review.py:0
+msgid "A review has been requested %s days ago."
+msgstr "Перегляд було запитано %s днів тому."
+
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid "A review has been requested by %s."
+msgstr "Перевірку запитав %s."
+
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid "A review was accepted"
+msgstr "Перевірку схвалено"
+
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid "A review was accepted. (%s)"
+msgstr "Перевірку схвалено. (%s)"
+
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid "A review was rejected by %(user)s. (%(comment)s)"
+msgstr "Перегляд відхилено користувачем %(user)s. (%(comment)s)"
+
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid "A review was rejected by %s."
+msgstr "Перевірку відхилено користувачем %s."
+
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid "A validation process is still open for at least one record."
+msgstr "Для принаймні одного запису ще відкрито процес перевірки."
+
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_validation_exception.py:0
+msgid ""
+"At least one of these fields must be checked! Write under Validation, Write "
+"after Validation"
+msgstr ""
+"Потрібно позначити щонайменше одне з цих полів! Запис під час перевірки, "
+"запис після перевірки"
+
+#. module: base_tier_validation
+#. odoo-javascript
+#: code:addons/base_tier_validation/static/src/components/tier_review_widget/tier_review_widget.xml:0
+msgid "Done by"
+msgstr "Виконано"
+
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_review.py:0
+msgid "Group %s"
+msgstr "Група %s"
+
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_definition.py:0
+msgid "New Tier Validation"
+msgstr "Нова рівнева перевірка"
+
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid "Next: %s"
+msgstr "Далі: %s"
+
+#. module: base_tier_validation
+#. odoo-javascript
+#: code:addons/base_tier_validation/static/src/components/tier_review_menu/tier_review_menu.xml:0
+msgid "No reviews to do."
+msgstr "Немає перевірок для виконання."
+
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid "The review has been reset by %s."
+msgstr "Перевірку скинуто користувачем %s."
+
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid ""
+"This action needs to be validated for at least one record. Reviews pending:\n"
+" - %s \n"
+"Please request a validation."
+msgstr ""
+"Цю дію потрібно підтвердити щонайменше для одного запису. Очікують перегляду:\n"
+" - %s \n"
+"Будь ласка, запросіть підтвердження."
+
+#. module: base_tier_validation
+#. odoo-javascript
+#: code:addons/base_tier_validation/static/src/components/tier_review_widget/tier_review_widget.xml:0
+msgid "Todo by"
+msgstr "Завдання для"
+
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_review.py:0
+msgid "Validation reviewer field should be of the appropriate type"
+msgstr "Поле рецензента перевірки має бути відповідного типу"
+
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid ""
+"You are not allowed to write those fields after validation.\n"
+"- %(not_allowed_fields_str)s\n"
+"\n"
+"Only those fields can be modified:\n"
+"- %(allowed_fields_str)s"
+msgstr ""
+"Після перевірки вам не дозволено записувати такі поля.\n"
+"- %(not_allowed_fields_str)s\n"
+"\n"
+"Можна змінювати лише такі поля:\n"
+"- %(allowed_fields_str)s"
+
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid ""
+"You are not allowed to write those fields under validation.\n"
+"- %(not_allowed_fields_str)s\n"
+"\n"
+"Only those fields can be modified:\n"
+"- %(allowed_fields_str)s"
+msgstr ""
+"Під час перевірки вам не дозволено записувати такі поля.\n"
+"- %(not_allowed_fields_str)s\n"
+"\n"
+"Можна змінювати лише такі поля:\n"
+"- %(allowed_fields_str)s"

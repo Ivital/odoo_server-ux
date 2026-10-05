@@ -92,3 +92,15 @@ msgid ""
 msgstr ""
 "Необов’язкова назва поля, після якого слід розмістити фільтр. Якщо порожньо "
 "або поле не знайдено, фільтр буде в кінці."
+
+#. module: base_search_custom_field_filter
+#. odoo-python
+#: code:addons/base_search_custom_field_filter/models/ir_ui_custom_field_filter.py:0
+msgid "A filter with the same name already exists for this model."
+msgstr "Для цієї моделі вже існує фільтр із такою назвою."
+
+#. module: base_search_custom_field_filter
+#. odoo-python
+#: code:addons/base_search_custom_field_filter/models/ir_ui_custom_field_filter.py:0
+msgid "Incorrect expression: %s."
+msgstr "Неправильний вираз: %s."

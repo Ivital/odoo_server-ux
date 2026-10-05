@@ -156,3 +156,15 @@ msgstr "Перевірка рівня"
 #: model:mail.message.subtype,name:base_tier_validation_forward.mt_tier_validation_forwarded
 msgid "Tier Validation Forward Notification"
 msgstr "Сповіщення про пересилання багаторівневої валідації"
+
+#. module: base_tier_validation_forward
+#. odoo-python
+#: code:addons/base_tier_validation_forward/models/tier_validation.py:0
+msgid "A review was forwarded by %(user_name)s."
+msgstr "Перегляд переслано користувачем %(user_name)s."
+
+#. module: base_tier_validation_forward
+#. odoo-python
+#: code:addons/base_tier_validation_forward/models/tier_validation.py:0
+msgid "A review was forwarded from %(user_name)s %(comment)s"
+msgstr "Перегляд переслано від %(user_name)s %(comment)s"

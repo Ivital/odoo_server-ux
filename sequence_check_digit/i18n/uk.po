@@ -22,3 +22,9 @@ msgstr "Немає"
 #: model:ir.model.fields,field_description:sequence_check_digit.field_ir_sequence__check_digit_formula
 msgid "Check Digit Formula"
 msgstr "Формула контрольної цифри"
+
+#. module: sequence_check_digit
+#. odoo-python
+#: code:addons/sequence_check_digit/models/ir_sequence.py:0
+msgid "Format is not accepted"
+msgstr "Формат не підтримується"

@@ -22,13 +22,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/date_range/models/date_range.py:0
 msgid "%(name)s is not a valid range (%(date_start)s > %(date_end)s)"
-msgstr ""
+msgstr "%(name)s не є дійсним діапазоном (%(date_start)s > %(date_end)s)"
 
 #. module: date_range
 #. odoo-python
 #: code:addons/date_range/models/date_range.py:0
 msgid "%(thisname)s overlaps %(dtname)s"
-msgstr ""
+msgstr "%(thisname)s перекриває %(dtname)s"
 
 #. module: date_range
 #: model_terms:ir.ui.view,arch_db:date_range.date_range_generator_view_form
@@ -244,7 +244,7 @@ msgstr "Якщо задано, діапазони дат одного типу �
 #. odoo-python
 #: code:addons/date_range/wizard/date_range_generator.py:0
 msgid "Invalid name expression: %s"
-msgstr ""
+msgstr "Недійсний вираз назви: %s"
 
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__write_uid
@@ -275,7 +275,7 @@ msgstr "Назва"
 #. odoo-python
 #: code:addons/date_range/wizard/date_range_generator.py:0
 msgid "No ranges to generate with these settings"
-msgstr ""
+msgstr "Немає діапазонів для генерації з цими налаштуваннями"
 
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range_generator__count
@@ -302,13 +302,13 @@ msgstr "Період"
 #. odoo-python
 #: code:addons/date_range/wizard/date_range_generator.py:0
 msgid "Please enter an end date, or the number of ranges to generate."
-msgstr ""
+msgstr "Введіть дату завершення або кількість діапазонів для генерації."
 
 #. module: date_range
 #. odoo-python
 #: code:addons/date_range/wizard/date_range_generator.py:0
 msgid "Please set a prefix or an expression to generate the range names."
-msgstr ""
+msgstr "Вкажіть префікс або вираз для генерації назв діапазонів."
 
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range_generator__range_name_preview
@@ -351,6 +351,7 @@ msgid ""
 "The Company in the Date Range Generator and in Date Range Type must be the "
 "same."
 msgstr ""
+"Компанія в генераторі діапазонів дат і типі діапазону дат має збігатися."
 
 #. module: date_range
 #: model:ir.model.fields,help:date_range.field_date_range_type__active
@@ -389,6 +390,8 @@ msgid ""
 "You cannot change the company, as this Date Range Type is assigned to Date "
 "Range '%s'."
 msgstr ""
+"Не можна змінити компанію, оскільки цей тип діапазону дат призначено "
+"діапазону дат «%s»."
 
 #. module: date_range
 #: model:ir.model.fields.selection,name:date_range.selection__date_range_generator__unit_of_time__3

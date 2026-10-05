@@ -119,3 +119,9 @@ msgstr "Обробник компонента для швидкого досту
 #: model:ir.module.category,name:document_quick_access_folder_auto_classification.ir_module_category_missing_document
 msgid "Missing Documents"
 msgstr "Відсутні документи"
+
+#. module: document_quick_access_folder_auto_classification
+#. odoo-python
+#: code:addons/document_quick_access_folder_auto_classification/models/document_quick_access_handler.py:0
+msgid "No file found"
+msgstr "Файл не знайдено"

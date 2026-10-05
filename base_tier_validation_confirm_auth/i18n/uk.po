@@ -29,3 +29,15 @@ msgid ""
 msgstr ""
 "Якщо ввімкнено, користувача попросять автентифікуватися, щоб підтвердити або"
 " відхилити рівень."
+
+#. module: base_tier_validation_confirm_auth
+#. odoo-python
+#: code:addons/base_tier_validation_confirm_auth/models/res_users.py:0
+msgid "Security Control"
+msgstr "Контроль безпеки"
+
+#. module: base_tier_validation_confirm_auth
+#. odoo-python
+#: code:addons/base_tier_validation_confirm_auth/models/res_users.py:0
+msgid "This method can only be accessed over HTTP"
+msgstr "До цього методу можна звертатися лише через HTTP"
