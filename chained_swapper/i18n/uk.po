@@ -9,6 +9,86 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: chained_swapper
-#: model:ir.module.module,shortdesc:base.module_chained_swapper model:ir.module.module,summary:base.module_chained_swapper
+#: model:ir.module.module,shortdesc:base.module_chained_swapper
+#: model:ir.module.module,summary:base.module_chained_swapper
 msgid "Chained Swapper"
 msgstr "Ланцюгова заміна"
+
+#. module: chained_swapper
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper__ref_ir_act_window_id
+msgid "Action"
+msgstr "Дія"
+
+#. module: chained_swapper
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_wizard__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: chained_swapper
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper__constraint_ids
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
+msgid "Constraints"
+msgstr "Обмеження"
+
+#. module: chained_swapper
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper__create_uid
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_constraint__create_uid
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_sub_field__create_uid
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_wizard__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: chained_swapper
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper__create_date
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_constraint__create_date
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_sub_field__create_date
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_wizard__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: chained_swapper
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper__display_name
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_constraint__display_name
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_sub_field__display_name
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_wizard__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: chained_swapper
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper__field_id
+msgid "Field"
+msgstr "Поле"
+
+#. module: chained_swapper
+#: model:ir.actions.act_window,name:chained_swapper.chained_swapper_action
+#: model:ir.ui.menu,name:chained_swapper.chained_swapper_menu
+#: model:ir.ui.menu,name:chained_swapper.chained_swapper_submenu
+msgid "Field Swaps"
+msgstr "Заміни полів"
+
+#. module: chained_swapper
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper__group_ids
+msgid "Groups"
+msgstr "Групи"
+
+#. module: chained_swapper
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper__model_id
+msgid "Model"
+msgstr "Модель"
+
+#. module: chained_swapper
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_sub_field__model_name
+msgid "Model Name"
+msgstr "Назва моделі"
+
+#. module: chained_swapper
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper__name
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper_constraint__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: chained_swapper
+#: model:ir.model.fields,field_description:chained_swapper.field_chained_swapper__sub_field_ids
+#: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
+msgid "Sub-fields"
+msgstr "Підполя"

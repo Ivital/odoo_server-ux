@@ -1,0 +1,168 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement__active
+#: model_terms:ir.ui.view,arch_db:announcement.announcement_view_search
+msgid "Active"
+msgstr "Активний"
+
+#. module: announcement
+#. odoo-javascript
+#: code:addons/announcement/static/src/js/announcement_menu/announcement_menu.xml:0
+#: model:ir.model.fields,field_description:announcement.field_announcement_log__announcement_id
+#: model:ir.model.fields,field_description:announcement.field_read_announcement_wizard__announcement_id
+#: model:ir.module.category,name:announcement.category_announcement
+#: model_terms:ir.ui.view,arch_db:announcement.announcement_view_form
+msgid "Announcement"
+msgstr "Оголошення"
+
+#. module: announcement
+#: model:ir.actions.act_window,name:announcement.announcement_tag_action
+#: model:ir.model,name:announcement.model_announcement_tag
+#: model:ir.ui.menu,name:announcement.menu_announcement_tag_management
+msgid "Announcement Tags"
+msgstr "Теги оголошень"
+
+#. module: announcement
+#. odoo-javascript
+#: code:addons/announcement/static/src/js/announcement_menu/announcement_menu.xml:0
+#: model:ir.actions.act_window,name:announcement.announcement_action
+#: model:ir.ui.menu,name:announcement.menu_announcement_management
+msgid "Announcements"
+msgstr "Оголошення"
+
+#. module: announcement
+#: model_terms:ir.ui.view,arch_db:announcement.announcement_view_form
+#: model_terms:ir.ui.view,arch_db:announcement.announcement_view_search
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement__attachment_ids
+msgid "Attachments"
+msgstr "Вкладення"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement__color
+#: model:ir.model.fields,field_description:announcement.field_announcement_tag__color
+msgid "Color"
+msgstr "Колір"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement_tag__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement__content
+#: model_terms:ir.ui.view,arch_db:announcement.announcement_view_form
+msgid "Content"
+msgstr "Вміст"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement__create_uid
+#: model:ir.model.fields,field_description:announcement.field_announcement_log__create_uid
+#: model:ir.model.fields,field_description:announcement.field_announcement_tag__create_uid
+#: model:ir.model.fields,field_description:announcement.field_read_announcement_wizard__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement__create_date
+#: model:ir.model.fields,field_description:announcement.field_announcement_log__create_date
+#: model:ir.model.fields,field_description:announcement.field_announcement_tag__create_date
+#: model:ir.model.fields,field_description:announcement.field_read_announcement_wizard__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement__display_name
+#: model:ir.model.fields,field_description:announcement.field_announcement_log__display_name
+#: model:ir.model.fields,field_description:announcement.field_announcement_tag__display_name
+#: model:ir.model.fields,field_description:announcement.field_read_announcement_wizard__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: announcement
+#: model_terms:ir.ui.view,arch_db:announcement.announcement_management_view_form
+msgid "Groups"
+msgstr "Групи"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement__in_date
+msgid "In Date"
+msgstr "Дата надходження"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement_tag__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement_tag__parent_id
+msgid "Parent Tag"
+msgstr "Батьківський тег"
+
+#. module: announcement
+#: model:ir.model.fields.selection,name:announcement.selection__read_announcement_wizard__read_state__read
+msgid "Read"
+msgstr "Читання"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_read_announcement_wizard__date
+msgid "Read Date"
+msgstr "Дата прочитання"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_read_announcement_wizard__read_state
+msgid "Read State"
+msgstr "Стан прочитання"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: announcement
+#: model_terms:ir.ui.view,arch_db:announcement.announcement_view_search
+msgid "Tag"
+msgstr "Тег"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement__tag_ids
+msgid "Tags"
+msgstr "Теги"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement__name
+msgid "Title"
+msgstr "Заголовок"
+
+#. module: announcement
+#: model:ir.model,name:announcement.model_res_users
+#: model:ir.model.fields,field_description:announcement.field_read_announcement_wizard__user_id
+msgid "User"
+msgstr "Користувач"
+
+#. module: announcement
+#: model:ir.model.fields,field_description:announcement.field_announcement__user_group_ids
+msgid "User Group"
+msgstr "Група користувачів"
+
+#. module: announcement
+#: model_terms:ir.ui.view,arch_db:announcement.announcement_management_view_form
+msgid "Users"
+msgstr "Користувачі"

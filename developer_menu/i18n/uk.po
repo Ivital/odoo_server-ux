@@ -1,0 +1,84 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: developer_menu
+#: model:ir.ui.menu,name:developer_menu.window
+msgid "Actions Window"
+msgstr "Віконні дії"
+
+#. module: developer_menu
+#: model:ir.ui.menu,name:developer_menu.fields
+msgid "Fields"
+msgstr "Поля"
+
+#. module: developer_menu
+#: model:ir.ui.menu,name:developer_menu.model_data
+msgid "Model Data"
+msgstr "Дані моделі"
+
+#. module: developer_menu
+#: model:ir.ui.menu,name:developer_menu.model
+msgid "Models"
+msgstr "Моделі"
+
+#. module: developer_menu
+#: model:ir.ui.menu,name:developer_menu.param
+msgid "Parameters"
+msgstr "Параметри"
+
+#. module: developer_menu
+#: model:ir.ui.menu,name:developer_menu.view
+msgid "Views"
+msgstr "Подання"
+
+#. module: developer_menu
+#: model:ir.ui.menu,name:developer_menu.server
+msgid "⚙ Actions Server"
+msgstr "⚙ Серверні дії"
+
+#. module: developer_menu
+#: model:ir.ui.menu,name:developer_menu.menu
+msgid "📃 Menus"
+msgstr "📃 Меню"
+
+#. module: developer_menu
+#: model:ir.ui.menu,name:developer_menu.report
+msgid "📄 Reports"
+msgstr "📄 Звіти"
+
+#. module: developer_menu
+#: model:ir.ui.menu,name:developer_menu.cron
+msgid "📅 Crons"
+msgstr "📅 Планувальники"
+
+#. module: developer_menu
+#: model:ir.ui.menu,name:developer_menu.rec_rule
+msgid "📑 Record Rules"
+msgstr "📑 Правила записів"
+
+#. module: developer_menu
+#: model:ir.ui.menu,name:developer_menu.mail_tmpl
+msgid "📧 Mail Templates"
+msgstr "📧 Шаблони листів"
+
+#. module: developer_menu
+#: model:ir.ui.menu,name:developer_menu.seq
+msgid "🔢 Sequences"
+msgstr "🔢 Послідовності"
+
+#. module: developer_menu
+#: model:ir.ui.menu,name:developer_menu.conf_tech
+msgid "🧰 Dev"
+msgstr "🧰 Розробка"

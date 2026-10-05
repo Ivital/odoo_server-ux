@@ -16,8 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: date_range
 #. odoo-python
@@ -52,7 +51,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:date_range.field_date_range__active
 #: model:ir.model.fields,field_description:date_range.field_date_range_type__active
 msgid "Active"
-msgstr ""
+msgstr "Активний"
 
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range_type__allow_overlap
@@ -64,7 +63,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:date_range.view_date_range_search
 #: model_terms:ir.ui.view,arch_db:date_range.view_date_range_type_search
 msgid "Archived"
-msgstr ""
+msgstr "Архівовано"
 
 #. module: date_range
 #: model:ir.actions.server,name:date_range.ir_cron_autocreate_ir_actions_server
@@ -102,17 +101,17 @@ msgstr "Скасувати"
 #: model:ir.model.fields,field_description:date_range.field_date_range_type__company_id
 #: model_terms:ir.ui.view,arch_db:date_range.view_date_range_search
 msgid "Company"
-msgstr ""
+msgstr "Компанія"
 
 #. module: date_range
 #: model_terms:ir.ui.view,arch_db:date_range.view_date_range_type_form_view
 msgid "Configuration"
-msgstr ""
+msgstr "Конфігурація"
 
 #. module: date_range
 #: model_terms:ir.ui.view,arch_db:date_range.view_date_range_type_form_view
 msgid "Create"
-msgstr ""
+msgstr "Створити"
 
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__create_uid
@@ -131,7 +130,7 @@ msgstr "Створено"
 #. module: date_range
 #: model:ir.model,name:date_range.model_date_range
 msgid "Date Range"
-msgstr ""
+msgstr "Діапазон дат"
 
 #. module: date_range
 #: model:ir.model,name:date_range.model_date_range_generator
@@ -148,13 +147,13 @@ msgstr ""
 #: model:ir.actions.act_window,name:date_range.date_range_type_action
 #: model:ir.ui.menu,name:date_range.menu_date_range_type_action
 msgid "Date Range Types"
-msgstr ""
+msgstr "Типи діапазонів дат"
 
 #. module: date_range
 #: model:ir.actions.act_window,name:date_range.date_range_action
 #: model:ir.ui.menu,name:date_range.menu_date_range_action
 msgid "Date Ranges"
-msgstr ""
+msgstr "Діапазони дат"
 
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range_type__date_ranges_exist
@@ -164,7 +163,7 @@ msgstr ""
 #. module: date_range
 #: model:ir.ui.menu,name:date_range.menu_date_range
 msgid "Date ranges"
-msgstr ""
+msgstr "Діапазони дат"
 
 #. module: date_range
 #: model_terms:ir.ui.view,arch_db:date_range.view_date_range_type_form_view
@@ -182,26 +181,25 @@ msgstr "Назва для відображення"
 #: model:ir.model.fields,field_description:date_range.field_date_range_generator__duration_count
 #: model:ir.model.fields,field_description:date_range.field_date_range_type__duration_count
 msgid "Duration"
-msgstr ""
+msgstr "Тривалість"
 
 #. module: date_range
 #: model_terms:ir.ui.view,arch_db:date_range.view_date_range_search
 msgid "End Date"
-msgstr ""
+msgstr "Дата завершення"
 
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__date_end
 #: model:ir.model.fields,field_description:date_range.field_date_range_generator__date_end
 msgid "End date"
-msgstr ""
+msgstr "Дата завершення"
 
 #. module: date_range
 #: model:ir.model.fields,help:date_range.field_date_range_generator__name_expr
 #: model:ir.model.fields,help:date_range.field_date_range_type__name_expr
 msgid ""
 "Evaluated expression. E.g. \"'FY%s' % date_start.strftime('%Y%m%d')\"\n"
-"You can use the Date types 'date_end' and 'date_start', as well as the "
-"'index' variable."
+"You can use the Date types 'date_end' and 'date_start', as well as the 'index' variable."
 msgstr ""
 
 #. module: date_range
@@ -219,7 +217,7 @@ msgstr ""
 #: model:ir.ui.menu,name:date_range.menu_date_range_generator_action
 #: model_terms:ir.ui.view,arch_db:date_range.date_range_generator_view_form
 msgid "Generate Date Ranges"
-msgstr ""
+msgstr "Створити діапазони дат"
 
 #. module: date_range
 #: model_terms:ir.ui.view,arch_db:date_range.view_date_range_type_form_view
@@ -267,7 +265,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:date_range.field_date_range__name
 #: model:ir.model.fields,field_description:date_range.field_date_range_type__name
 msgid "Name"
-msgstr "Name"
+msgstr "Назва"
 
 #. module: date_range
 #. odoo-python
@@ -288,13 +286,13 @@ msgstr ""
 #. module: date_range
 #: model_terms:ir.ui.view,arch_db:date_range.date_range_generator_view_form
 msgid "Parameters"
-msgstr ""
+msgstr "Параметри"
 
 #. module: date_range
 #. odoo-python
 #: code:addons/date_range/models/date_range_search_mixin.py:0
 msgid "Period"
-msgstr ""
+msgstr "Період"
 
 #. module: date_range
 #. odoo-python
@@ -329,18 +327,18 @@ msgstr ""
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range_type__date_range_ids
 msgid "Ranges"
-msgstr ""
+msgstr "Діапазони"
 
 #. module: date_range
 #: model_terms:ir.ui.view,arch_db:date_range.view_date_range_search
 msgid "Start Date"
-msgstr ""
+msgstr "Дата початку"
 
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__date_start
 #: model:ir.model.fields,field_description:date_range.field_date_range_generator__date_start
 msgid "Start date"
-msgstr ""
+msgstr "Дата початку"
 
 #. module: date_range
 #. odoo-python
@@ -358,7 +356,8 @@ msgstr ""
 
 #. module: date_range
 #: model:ir.model.fields,help:date_range.field_date_range__active
-msgid "The active field allows you to hide the date range without removing it."
+msgid ""
+"The active field allows you to hide the date range without removing it."
 msgstr ""
 
 #. module: date_range
@@ -371,12 +370,12 @@ msgstr "Тип"
 #: model:ir.model.fields,field_description:date_range.field_date_range_generator__unit_of_time
 #: model:ir.model.fields,field_description:date_range.field_date_range_type__unit_of_time
 msgid "Unit Of Time"
-msgstr ""
+msgstr "Одиниця часу"
 
 #. module: date_range
 #: model_terms:ir.ui.view,arch_db:date_range.date_range_generator_view_form
 msgid "Until"
-msgstr ""
+msgstr "До"
 
 #. module: date_range
 #. odoo-python

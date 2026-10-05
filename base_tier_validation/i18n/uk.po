@@ -1,0 +1,269 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: base_tier_validation
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_search
+msgid "All"
+msgstr "Усі"
+
+#. module: base_tier_validation
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
+msgid "Apply On"
+msgstr "Застосувати до"
+
+#. module: base_tier_validation
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__can_review
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__can_review
+msgid "Can Review"
+msgstr "Може перевіряти"
+
+#. module: base_tier_validation
+#. odoo-javascript
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+#: code:addons/base_tier_validation/static/src/components/tier_review_widget/tier_review_widget.xml:0
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__comment
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__has_comment
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__has_comment
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.view_comment_wizard
+msgid "Comment"
+msgstr "Коментар"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__comment
+msgid "Comments"
+msgstr "Коментарі"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__company_id
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__company_id
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation_exception__company_id
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_exception_search
+msgid "Company"
+msgstr "Компанія"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__create_uid
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__create_uid
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__create_uid
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation_exception__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__create_date
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__create_date
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__create_date
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation_exception__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__definition_type
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__definition_id
+msgid "Definition"
+msgstr "Визначення"
+
+#. module: base_tier_validation
+#. odoo-javascript
+#: code:addons/base_tier_validation/static/src/components/tier_review_widget/tier_review_widget.xml:0
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__name
+msgid "Description"
+msgstr "Опис"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__display_name
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__display_name
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__display_name
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation_exception__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: base_tier_validation
+#: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_definition__definition_type__domain
+msgid "Domain"
+msgstr "Домен"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__done_by
+msgid "Done By"
+msgstr "Виконав"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation_exception__field_ids
+msgid "Fields"
+msgstr "Поля"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation_exception__group_ids
+msgid "Groups"
+msgstr "Групи"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__has_comment
+msgid "Has Comment"
+msgstr "Має коментар"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__hide_reviews
+msgid "Hide Reviews"
+msgstr "Приховати перевірки"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__model
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation_exception__model_id
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_search
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_exception_search
+msgid "Model"
+msgstr "Модель"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation_exception__model_name
+msgid "Model Name"
+msgstr "Назва моделі"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__name
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation_exception__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__next_review
+msgid "Next Review"
+msgstr "Наступна перевірка"
+
+#. module: base_tier_validation
+#. odoo-javascript
+#: code:addons/base_tier_validation/static/src/components/tier_review_menu/tier_review_menu.xml:0
+#: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_review__status__pending
+#: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_validation__validation_status__pending
+msgid "Pending"
+msgstr "Очікують"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__rejected
+#: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_review__status__rejected
+#: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_validation__validation_status__rejected
+msgid "Rejected"
+msgstr "Відхилено"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__requested_by
+msgid "Requested By"
+msgstr "Запитав"
+
+#. module: base_tier_validation
+#. odoo-javascript
+#: code:addons/base_tier_validation/static/src/components/tier_review_widget/tier_review_widget.xml:0
+msgid "Requested by"
+msgstr "Запитав"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__res_model
+msgid "Res Model"
+msgstr "Модель ресурсу"
+
+#. module: base_tier_validation
+#. odoo-javascript
+#: code:addons/base_tier_validation/static/src/components/tier_review_menu/tier_review_menu.xml:0
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__review_ids
+msgid "Review"
+msgstr "Перевірка"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__reviewer_id
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewer_id
+msgid "Reviewer"
+msgstr "Рецензент"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewer_ids
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__reviewer_ids
+msgid "Reviewers"
+msgstr "Рецензенти"
+
+#. module: base_tier_validation
+#. odoo-javascript
+#: code:addons/base_tier_validation/static/src/components/tier_review_menu/tier_review_menu.xml:0
+#: code:addons/base_tier_validation/static/src/components/tier_review_widget/tier_review_widget.xml:0
+#: model:ir.model.fields,field_description:base_tier_validation.field_res_users__review_ids
+msgid "Reviews"
+msgstr "Огляди"
+
+#. module: base_tier_validation
+#. odoo-javascript
+#: code:addons/base_tier_validation/static/src/components/tier_review_widget/tier_review_widget.xml:0
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: base_tier_validation
+#. odoo-javascript
+#: code:addons/base_tier_validation/static/src/components/tier_review_widget/tier_review_widget.xml:0
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__status
+msgid "Status"
+msgstr "Статус"
+
+#. module: base_tier_validation
+#: model:ir.actions.act_window,name:base_tier_validation.tier_definition_action
+#: model:ir.model,name:base_tier_validation.model_tier_definition
+#: model:ir.ui.menu,name:base_tier_validation.menu_tier_definition
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
+msgid "Tier Definition"
+msgstr "Визначення рівня"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_res_config_settings__module_base_tier_validation_formula
+msgid "Tier Formula"
+msgstr "Формула рівня"
+
+#. module: base_tier_validation
+#: model:ir.actions.act_window,name:base_tier_validation.tier_validation_exception_action
+#: model:ir.ui.menu,name:base_tier_validation.menu_tier_validation_exception
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_exception_form
+msgid "Tier Validation Exception"
+msgstr "Виняток рівневого погодження"
+
+#. module: base_tier_validation
+#: model:ir.ui.menu,name:base_tier_validation.menu_tier_confirmation
+msgid "Tier Validations"
+msgstr "Рівневі погодження"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__todo_by
+msgid "Todo By"
+msgstr "Виконати до"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__validated
+#: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_validation__validation_status__validated
+msgid "Validated"
+msgstr "Підтверджено"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__review_ids
+msgid "Validations"
+msgstr "Погодження"
